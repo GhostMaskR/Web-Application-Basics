@@ -1,15 +1,16 @@
-# 🌐 WEB APPLICATION SECURITY | WAPT PHASE 1
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00D9FF&center=true&vCenter=true&width=850&height=70&lines=Welcome+to+Web+Application+Security;Learn+%7C+Analyze+%7C+Test+%7C+Secure;Explore+the+World+of+WAPT;Think+Like+a+Security+Researcher" alt="Animated WAPT Banner"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=900&color=00D9FF&center=true&vCenter=true&width=900&height=70&lines=WEB+APPLICATION+SECURITY;WEB+APPLICATION+PENETRATION+TESTING;LEARN+%7C+ANALYZE+%7C+TEST+%7C+SECURE;THINK+LIKE+A+SECURITY+RESEARCHER" alt="Animated WAPT Header"/>
 
-### A Complete Beginner-Friendly Web Application Penetration Testing Learning Repository
+<img src="assets/wapt-security.gif" width="850" alt="Cybersecurity Animation"/>
 
-![WAPT](https://img.shields.io/badge/Domain-Web%20Application%20Security-0078D7?style=for-the-badge)
-![Internship](https://img.shields.io/badge/Internship-IqraSec%20Academy-red?style=for-the-badge)
-![Phase](https://img.shields.io/badge/Phase-01-success?style=for-the-badge)
-![Learning](https://img.shields.io/badge/Focus-Learning%20%26%20Foundation-orange?style=for-the-badge)
+# 🌐 WEB APPLICATION SECURITY
+### WAPT PHASE 1 — LEARNING & FOUNDATION
+
+![WAPT](https://img.shields.io/badge/DOMAIN-WAPT-0078D7?style=for-the-badge)
+![Internship](https://img.shields.io/badge/INTERNSHIP-IQRASEC%20ACADEMY-red?style=for-the-badge)
+![Phase](https://img.shields.io/badge/PHASE-01-success?style=for-the-badge)
+![Learning](https://img.shields.io/badge/FOCUS-LEARNING-orange?style=for-the-badge)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/GhostMaskR/Web-Application-Basics)
 ![GitHub repo size](https://img.shields.io/github/repo-size/GhostMaskR/Web-Application-Basics)
@@ -27,68 +28,75 @@ Welcome to **Web Application Security – WAPT Phase 1**.
 
 This repository is part of the Web Application Penetration Testing Internship at IqraSec Academy.
 
-The objective of this learning project is to understand how modern web applications work, how they communicate with servers, how security professionals identify weaknesses, and how common web vulnerabilities can be tested in authorized environments.
+The objective of this project is to understand how web applications work, how they communicate with servers, how security professionals identify vulnerabilities, and how common web security weaknesses can be tested in authorized environments.
 
-This repository contains structured PDF documentation, technical concepts, tool references, installation instructions, practical testing commands, vertical workflow diagrams, and security remediation guidance.
+This repository contains:
 
-It is designed for beginners who want to build a strong foundation in Web Application Penetration Testing (WAPT).
+- Structured PDF learning documentation.
+- Web application security fundamentals.
+- Reconnaissance and enumeration concepts.
+- Burp Suite learning materials.
+- Common web vulnerability explanations.
+- Security testing tools and commands.
+- Practical lab testing references.
+- Workflow diagrams.
+- Security remediation techniques.
+- Technical learning resources.
 
-## 🎯 Project Objectives
-
-- Understand web application architecture.
-- Learn HTTP and HTTPS communication.
-- Study client-server interactions.
-- Understand passive and active reconnaissance.
-- Learn subdomain and content discovery.
-- Work with Burp Suite and HTTP Repeater.
-- Understand common web vulnerabilities.
-- Practice security testing in authorized labs.
-- Analyze security findings and their impact.
-- Learn vulnerability remediation and documentation.
+**Designed for:** Cybersecurity beginners, students, and aspiring Web Application Penetration Testers.
 
 ---
 
-# 🗺️ 02. COMPLETE LEARNING ROADMAP
+# 🎯 02. PROJECT OBJECTIVES
+
+- Understand web application architecture.
+- Learn HTTP and HTTPS communication.
+- Understand client-server interactions.
+- Study passive and active reconnaissance.
+- Learn DNS and subdomain enumeration.
+- Understand content discovery techniques.
+- Learn Burp Suite and Repeater.
+- Study common web application vulnerabilities.
+- Practice security testing in authorized environments.
+- Analyze security findings and their impact.
+- Understand vulnerability remediation.
+- Develop technical documentation skills.
+
+---
+
+# 🗺️ 03. COMPLETE WAPT LEARNING ROADMAP
 
 ```mermaid
-flowchart TD
-    A(["START: WAPT PHASE 1"]) --> B["01. WEB FUNDAMENTALS"]
-    B --> C["02. RECONNAISSANCE & ENUMERATION"]
+flowchart LR
+    A(["START"]) --> B["01. WEB FUNDAMENTALS"]
+    B --> C["02. RECON & ENUMERATION"]
     C --> D["03. BURP SUITE"]
-    D --> E["04. COMMON WEB VULNERABILITIES"]
-    E --> F["Authentication & Access Control"]
-    E --> G["Injection Vulnerabilities"]
-    E --> H["CSRF & XSS"]
-    E --> I["File Inclusion & Upload"]
-    E --> J["IDOR"]
-    F --> K["AUTHORIZED PRACTICAL LABS"]
-    G --> K
-    H --> K
-    I --> K
-    J --> K
-    K --> L["ANALYZE FINDINGS"]
-    L --> M["DOCUMENT RESULTS"]
-    M --> N(["LEARNING OUTCOMES"])
+    D --> E["04. WEB VULNERABILITIES"]
+    E --> F["PRACTICAL LABS"]
+    F --> G["FINDINGS ANALYSIS"]
+    G --> H["REMEDIATION"]
+    H --> I["TECHNICAL REPORT"]
+    I --> J(["LEARNING OUTCOMES"])
 
     style A fill:#075985,color:#fff
-    style N fill:#166534,color:#fff
     style E fill:#7c2d12,color:#fff
+    style J fill:#166534,color:#fff
 ```
 
 ---
 
-# 🌐 03. WEB FUNDAMENTALS
+# 🌐 04. WEB FUNDAMENTALS
 
-**Objective:** Understand the basic structure, components, and communication mechanisms of web applications.
+**Objective:** Understand the basic structure, technologies, and communication mechanisms of web applications.
 
-### Documentation
+## Documentation
 
-| Room | Topic | PDF |
+| Room | Topic | Documentation |
 |---|---|---|
-| 01 | Web Application Basics | [Open PDF](Rohit_WAPT_Phase-1/1.Web-Fundamentals/Room1_Web-Application-Basics/Room1_Web-Application-Basics.pdf) |
-| 02 | HTTP in Detail | [Open PDF](Rohit_WAPT_Phase-1/1.Web-Fundamentals/Room2_HTTP-in-Detail/Room2_HTTP-in-Detail.pdf) |
+| Room 01 | Web Application Basics | [View PDF](Rohit_WAPT_Phase-1/1.Web-Fundamentals/Room1_Web-Application-Basics/Room1_Web-Application-Basics.pdf) |
+| Room 02 | HTTP in Detail | [View PDF](Rohit_WAPT_Phase-1/1.Web-Fundamentals/Room2_HTTP-in-Detail/Room2_HTTP-in-Detail.pdf) |
 
-### Topics Covered
+## Topics Covered
 
 - What is a web application?
 - Client-server architecture.
@@ -97,15 +105,15 @@ flowchart TD
 - HTTP and HTTPS.
 - HTTP methods: GET, POST, PUT, DELETE.
 - HTTP status codes.
-- Headers, cookies and sessions.
+- Headers, cookies, and sessions.
 - DNS fundamentals.
 - Request and response analysis.
 
-### Vertical Web Architecture
+## Web Application Architecture
 
 ```mermaid
-flowchart TD
-    A["👤 USER"] --> B["🌐 WEB BROWSER"]
+flowchart LR
+    A["USER"] --> B["WEB BROWSER"]
     B --> C["HTTP / HTTPS REQUEST"]
     C --> D["WEB SERVER"]
     D --> E["APPLICATION LOGIC"]
@@ -113,24 +121,24 @@ flowchart TD
     F --> E
     E --> G["HTTP RESPONSE"]
     G --> B
-    B --> H["RENDERED WEB PAGE"]
+    B --> H["WEB PAGE"]
 ```
 
 ---
 
-# 🔎 04. RECONNAISSANCE & ENUMERATION
+# 🔎 05. RECONNAISSANCE & ENUMERATION
 
-**Objective:** Learn how to collect information about authorized targets and understand their exposed attack surface.
+**Objective:** Understand how security professionals collect information about authorized targets and identify their exposed attack surface.
 
-### Documentation
+## Documentation
 
-| Room | Topic | PDF |
+| Room | Topic | Documentation |
 |---|---|---|
-| 01 | Passive Recon | [Open PDF](Rohit_WAPT_Phase-1/2.Recon-Enumeration/Room1_Passive-Recon/Room1_Passive-Recon.pdf) |
-| 02 | Active Recon | [Open PDF](Rohit_WAPT_Phase-1/2.Recon-Enumeration/Room2_Active-Recon/Room2_Active-Recon.pdf) |
-| 03 | Content Discovery | [Open PDF](Rohit_WAPT_Phase-1/2.Recon-Enumeration/Room3_Content-Discovery/Room3_Content-Discovery.pdf) |
+| Room 01 | Passive Recon | [View PDF](Rohit_WAPT_Phase-1/2.Recon-Enumeration/Room1_Passive-Recon/Room1_Passive-Recon.pdf) |
+| Room 02 | Active Recon | [View PDF](Rohit_WAPT_Phase-1/2.Recon-Enumeration/Room2_Active-Recon/Room2_Active-Recon.pdf) |
+| Room 03 | Content Discovery | [View PDF](Rohit_WAPT_Phase-1/2.Recon-Enumeration/Room3_Content-Discovery/Room3_Content-Discovery.pdf) |
 
-### Topics Covered
+## Topics Covered
 
 - Information gathering.
 - Passive reconnaissance.
@@ -142,34 +150,36 @@ flowchart TD
 - Content discovery.
 - Attack surface mapping.
 
-### Reconnaissance Workflow
+## Reconnaissance Workflow
 
 ```mermaid
-flowchart TD
+flowchart LR
     A["AUTHORIZED TARGET"] --> B["PASSIVE RECON"]
     B --> C["PUBLIC INFORMATION"]
-    C --> D["DNS & SUBDOMAIN ENUMERATION"]
+    C --> D["DNS ENUMERATION"]
     D --> E["ACTIVE RECON"]
-    E --> F["TECHNOLOGY IDENTIFICATION"]
+    E --> F["TECHNOLOGY DETECTION"]
     F --> G["CONTENT DISCOVERY"]
-    G --> H["ATTACK SURFACE MAPPING"]
-    H --> I["DOCUMENT FINDINGS"]
+    G --> H["ATTACK SURFACE"]
+    H --> I["DOCUMENTATION"]
 ```
 
-### Reconnaissance Tools
+## Reconnaissance Tools
 
 | Tool | Purpose |
 |---|---|
 | Nmap | Port and service discovery |
 | Subfinder | Subdomain discovery |
 | DNSx | DNS resolution |
-| WhatWeb | Website technology identification |
-| Gobuster | Directory and DNS discovery |
+| WhatWeb | Technology identification |
+| Gobuster | Directory discovery |
 | Katana | Web crawling |
-| curl | HTTP communication |
 | Nuclei | Template-based security checks |
+| Nikto | Web server security checks |
+| curl | HTTP communication |
+| Browser DevTools | Web application inspection |
 
-### Basic Commands
+## Basic Recon Commands
 
 **Nmap – Service Discovery**
 
@@ -189,7 +199,7 @@ subfinder -d example.com -silent
 echo "example.com" | dnsx -silent
 ```
 
-**WhatWeb – Technology Identification**
+**WhatWeb – Technology Detection**
 
 ```bash
 whatweb http://127.0.0.1
@@ -208,27 +218,31 @@ gobuster dir -u http://127.0.0.1:3000 \
 katana -u http://127.0.0.1:3000 -d 2
 ```
 
-**Nuclei – Basic Template Scan**
+**Nuclei – Template-Based Testing**
 
 ```bash
 nuclei -u http://127.0.0.1:3000
 ```
 
-**Note:** Replace the example target with a system you own or have explicit authorization to test.
+**Nikto – Web Server Checks**
+
+```bash
+nikto -h http://127.0.0.1:3000
+```
 
 ---
 
-# 🦈 05. BURP SUITE
+# 🦈 06. BURP SUITE
 
-**Objective:** Understand HTTP interception, request modification, response analysis, and manual web application testing.
+**Objective:** Understand HTTP interception, request modification, and response analysis using Burp Suite.
 
-### Documentation
+## Documentation
 
-| Room | Topic | PDF |
+| Room | Topic | Documentation |
 |---|---|---|
-| 01 | Burp Suite Repeater | [Open PDF](Rohit_WAPT_Phase-1/3.Burp-Suite/Room1_Burp-Suite-Repeater/Room1_Burp-Suite-Repeater.pdf) |
+| Room 01 | Burp Suite Repeater | [View PDF](Rohit_WAPT_Phase-1/3.Burp-Suite/Room1_Burp-Suite-Repeater/Room1_Burp-Suite-Repeater.pdf) |
 
-### Topics Covered
+## Topics Covered
 
 - Burp Suite fundamentals.
 - Proxy configuration.
@@ -238,22 +252,20 @@ nuclei -u http://127.0.0.1:3000
 - Response analysis.
 - Manual security testing.
 
-### Burp Suite Workflow
+## Burp Suite Workflow
 
 ```mermaid
-flowchart TD
-    A["OPEN BURP SUITE"] --> B["CONFIGURE PROXY"]
-    B --> C["OPEN BROWSER"]
-    C --> D["VISIT AUTHORIZED LAB"]
-    D --> E["INTERCEPT HTTP REQUEST"]
-    E --> F["SEND TO REPEATER"]
-    F --> G["MODIFY REQUEST"]
-    G --> H["SEND REQUEST"]
-    H --> I["ANALYZE RESPONSE"]
-    I --> J["DOCUMENT OBSERVATIONS"]
+flowchart LR
+    A["BROWSER"] --> B["BURP PROXY"]
+    B --> C["INTERCEPT REQUEST"]
+    C --> D["REPEATER"]
+    D --> E["MODIFY REQUEST"]
+    E --> F["SEND REQUEST"]
+    F --> G["ANALYZE RESPONSE"]
+    G --> H["DOCUMENT RESULTS"]
 ```
 
-### Important Burp Suite Features
+## Important Burp Suite Features
 
 | Feature | Purpose |
 |---|---|
@@ -261,27 +273,28 @@ flowchart TD
 | Repeater | Modify and resend requests |
 | Intruder | Automated request testing |
 | Decoder | Encode and decode data |
-| Comparer | Compare requests and responses |
+| Comparer | Compare HTTP messages |
 | Logger | Review HTTP traffic |
 
-### Basic Repeater Testing
+## Basic Testing Procedure
 
 1. Start Burp Suite.
-2. Configure the browser proxy.
+2. Configure browser proxy.
 3. Open an authorized test application.
 4. Intercept an HTTP request.
 5. Send it to Repeater.
-6. Modify an allowed test parameter.
+6. Modify a test parameter.
 7. Send the request.
 8. Analyze the response.
+9. Document observations.
 
 ---
 
-# 🛡️ 06. COMMON WEB APPLICATION VULNERABILITIES
+# 🛡️ 07. COMMON WEB APPLICATION VULNERABILITIES
 
-This module covers common web security weaknesses and their testing methodologies.
+This module covers common web security weaknesses, their root causes, testing methodologies, potential impact, and remediation.
 
-## Vulnerability Index
+## Vulnerability Documentation Index
 
 | No. | Topic | Documentation |
 |---|---|---|
@@ -295,15 +308,17 @@ This module covers common web security weaknesses and their testing methodologie
 | 08 | PortSwigger Labs | [PDF](Rohit_WAPT_Phase-1/4.Common-Web-Vulnerabilities/PortSwigger-Lab/PortSwigger-Lab.pdf) |
 | 09 | SQL Injection | [PDF](Rohit_WAPT_Phase-1/4.Common-Web-Vulnerabilities/SQL-Injection/SQL-Injection.pdf) |
 | 10 | Upload Vulnerabilities | [PDF](Rohit_WAPT_Phase-1/4.Common-Web-Vulnerabilities/Upload%20Vulnerabilities/Upload%20Vulnerabilities.pdf) |
-| 11 | Cross-Site Scripting | [PDF](Rohit_WAPT_Phase-1/4.Common-Web-Vulnerabilities/XSS/XSS.pdf) |
+| 11 | Cross-Site Scripting (XSS) | [PDF](Rohit_WAPT_Phase-1/4.Common-Web-Vulnerabilities/XSS/XSS.pdf) |
 
-## 01. Authentication Testing
+---
+
+## 01. AUTHENTICATION TESTING
 
 **What is it?**
 
 Authentication verifies the identity of a user before granting access to an application.
 
-**Testing command:**
+**Testing Commands**
 
 ```bash
 curl -i http://127.0.0.1:3000/login
@@ -316,54 +331,60 @@ curl -i -X POST http://127.0.0.1:3000/login \
 -d "username=testuser&password=testpass"
 ```
 
-**Check:**
+**Testing Checklist**
+
 - Login validation.
 - Session management.
 - Cookie security.
 - Authentication errors.
 - Account protection.
+- Password handling.
 
-**Remediation:** MFA, secure password storage, rate limiting, and secure session handling.
+**Remediation:** MFA, secure password storage, rate limiting, and secure session management.
 
-## 02. Broken Access Control
+---
+
+## 02. BROKEN ACCESS CONTROL
 
 **What is it?**
 
 Broken Access Control occurs when users can access resources or perform actions beyond their assigned permissions.
 
-**Testing command:**
+**Testing Command**
 
 ```bash
 curl -i http://127.0.0.1:3000/admin
 ```
 
-**Check:**
+**Testing Checklist**
+
 - Unauthorized resource access.
 - Role-based permissions.
 - Server-side authorization.
 - HTTP 401 and 403 responses.
 
-**Remediation:** Enforce authorization checks on every protected server-side operation.
+**Remediation:** Enforce server-side authorization checks on every protected operation.
 
-## 03. Command Injection
+---
+
+## 03. COMMAND INJECTION
 
 **What is it?**
 
-Command Injection occurs when an application incorrectly passes untrusted user input into operating system commands.
+Command Injection occurs when an application incorrectly passes untrusted input into operating system commands.
 
-**Basic lab input:**
+**Basic Lab Inputs**
 
 ```text
 127.0.0.1; id
 ```
 
-Another example:
-
 ```text
 127.0.0.1 && whoami
 ```
 
-**Check:**
+**Testing Checklist**
+
 - Unexpected command execution.
 - Unsafe input handling.
 - Application output.
@@ -371,16 +392,18 @@ Another example:
 
 **Remediation:** Avoid shell execution, use safe APIs, and validate input.
 
-## 04. Cross-Site Request Forgery (CSRF)
+---
+
+## 04. CROSS-SITE REQUEST FORGERY (CSRF)
 
 **What is it?**
 
 CSRF attempts to make an authenticated user's browser perform an unwanted action.
 
-**Testing checklist:**
+**Testing Checklist**
 
 ```text
-1. Identify a state-changing request.
+1. Identify a state-changing HTTP request.
 2. Inspect the HTTP method.
 3. Check CSRF token implementation.
 4. Review token validation.
@@ -390,31 +413,36 @@ CSRF attempts to make an authenticated user's browser perform an unwanted action
 
 **Remediation:** Use CSRF tokens, appropriate SameSite cookies, and server-side request validation.
 
-## 05. File Inclusion
+---
+
+## 05. FILE INCLUSION
 
 **What is it?**
 
 File Inclusion vulnerabilities occur when an application improperly handles user-controlled file paths or file references.
 
-**Basic lab test input:**
+**Basic Lab Input**
 
 ```text
 ../../../../etc/passwd
 ```
 
-**Testing example:**
+**Testing Example**
 
 ```bash
 curl -i "http://127.0.0.1:3000/view?file=../../../../etc/passwd"
 ```
 
-**Check:**
+**Testing Checklist**
+
 - Path traversal behavior.
 - File access restrictions.
 - Input validation.
-- Secure path handling.
+- Safe path handling.
 
 **Remediation:** Use strict file allowlists and safe path resolution.
+
+---
 
 ## 06. IDOR
 
@@ -422,19 +450,20 @@ curl -i "http://127.0.0.1:3000/view?file=../../../../etc/passwd"
 
 Insecure Direct Object Reference occurs when an application exposes object identifiers without properly checking whether the current user is authorized to access the requested object.
 
-**Testing example:**
+**Testing Examples**
 
 ```bash
 curl -i http://127.0.0.1:3000/api/users/1001
 ```
 
-Compare with another test account's resource in your lab:
-
 ```bash
 curl -i http://127.0.0.1:3000/api/users/1002
 ```
 
-**Check:**
+Use only test accounts and resources in your authorized lab.
+
+**Testing Checklist**
+
 - Object ownership.
 - User permissions.
 - API response differences.
@@ -442,26 +471,29 @@ curl -i http://127.0.0.1:3000/api/users/1002
 
 **Remediation:** Implement object-level authorization checks.
 
-## 07. SQL Injection
+---
+
+## 07. SQL INJECTION
 
 **What is it?**
 
 SQL Injection occurs when untrusted input is incorrectly incorporated into database queries.
 
-**Basic lab payload:**
+**Basic Lab Payload**
 
 ```sql
 ' OR '1'='1'--
 ```
 
-**Testing example:**
+**Testing Example**
 
 ```bash
 curl -i -G "http://127.0.0.1:3000/search" \
 --data-urlencode "q=' OR '1'='1'--"
 ```
 
-**Check:**
+**Testing Checklist**
+
 - Database errors.
 - Unexpected query behavior.
 - Input handling.
@@ -469,19 +501,21 @@ curl -i -G "http://127.0.0.1:3000/search" \
 
 **Remediation:** Use parameterized queries and prepared statements.
 
-## 08. File Upload Vulnerabilities
+---
+
+## 08. FILE UPLOAD VULNERABILITIES
 
 **What is it?**
 
 File upload vulnerabilities occur when an application does not properly validate or securely store uploaded files.
 
-**Create a harmless test file:**
+**Create a Harmless Test File**
 
 ```bash
 echo "WAPT Upload Test" > test.txt
 ```
 
-**Upload to an authorized lab endpoint:**
+**Upload to an Authorized Lab**
 
 ```bash
 curl -i -X POST \
@@ -489,46 +523,57 @@ curl -i -X POST \
 http://127.0.0.1:3000/upload
 ```
 
-**Check:**
+**Testing Checklist**
+
 - File extension validation.
 - MIME type validation.
 - File size restrictions.
 - Secure storage.
 - File access permissions.
 
-**Remediation:** Validate uploaded content, generate safe filenames, and store files outside executable web directories.
+**Remediation:** Validate file content, generate safe filenames, and store files outside executable web directories.
 
-## 09. Cross-Site Scripting (XSS)
+---
+
+## 09. CROSS-SITE SCRIPTING (XSS)
 
 **What is it?**
 
 XSS occurs when an application allows untrusted content to execute as JavaScript in another user's browser.
 
-**Basic harmless lab payload:**
+**Basic Harmless Lab Payload**
 
 ```html
 <script>alert('XSS Test')</script>
 ```
 
-**URL-encoded example:**
+**URL-Encoded Example**
 
 ```text
 http://127.0.0.1:3000/search?q=%3Cscript%3Ealert(1)%3C%2Fscript%3E
 ```
 
-**Types of XSS:**
+**Types of XSS**
 
 - Reflected XSS.
 - Stored XSS.
 - DOM-based XSS.
 
+**Testing Checklist**
+
+- Input reflection.
+- Output encoding.
+- DOM manipulation.
+- Browser execution.
+- Content Security Policy.
+
 **Remediation:** Context-aware output encoding, safe DOM APIs, and Content Security Policy.
 
 ---
 
-# 🧰 07. SECURITY TOOLS INSTALLATION GUIDE
+# 🧰 08. SECURITY TOOLS INSTALLATION GUIDE
 
-The following installation commands are intended for Kali Linux and Debian-based testing environments.
+Installation examples are intended for Kali Linux and Debian-based testing environments.
 
 ## Step 01 – Update System
 
@@ -550,54 +595,76 @@ nikto \
 gobuster \
 whatweb \
 zaproxy \
-burpsuite \
-subfinder \
-dnsx \
-katana \
-nuclei
+burpsuite
 ```
 
-If a package is unavailable in your configured repositories, install it using the tool's official documentation instead.
+Some packages may not be available in every repository configuration. Use the official installation documentation when necessary.
 
-## Step 03 – Verify Installation
+## Step 03 – Install Go
+
+```bash
+sudo apt install -y golang-go
+```
+
+Verify:
+
+```bash
+go version
+```
+
+## Step 04 – Install ProjectDiscovery Tools
+
+**Subfinder**
+
+```bash
+go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+```
+
+**DNSx**
+
+```bash
+go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+```
+
+**Katana**
+
+```bash
+go install github.com/projectdiscovery/katana/cmd/katana@latest
+```
+
+**Nuclei**
+
+```bash
+go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+```
+
+Add Go binaries to PATH:
+
+```bash
+export PATH="$PATH:$(go env GOPATH)/bin"
+```
+
+For persistence, add that line to `~/.bashrc`, then reload:
+
+```bash
+source ~/.bashrc
+```
+
+## Step 05 – Verify Installations
 
 ```bash
 nmap --version
-```
-
-```bash
 curl --version
-```
-
-```bash
 nikto -Version
-```
-
-```bash
 gobuster version
-```
-
-```bash
 whatweb --version
-```
-
-```bash
 subfinder -version
-```
-
-```bash
 dnsx -version
-```
-
-```bash
 katana -version
-```
-
-```bash
 nuclei -version
 ```
 
-## Step 04 – Launch Tools
+## Step 06 – Launch Applications
 
 ```bash
 burpsuite
@@ -607,9 +674,7 @@ burpsuite
 zaproxy
 ```
 
-**Note:** Burp Suite Community Edition and OWASP ZAP can also be installed using their official installation methods.
-
-## Step 05 – Create a Working Directory
+## Step 07 – Create a WAPT Working Directory
 
 ```bash
 mkdir -p ~/WAPT-Lab/{Recon,Burp,Testing,Reports}
@@ -621,59 +686,47 @@ cd ~/WAPT-Lab
 
 ---
 
-# 🔬 08. COMPLETE VULNERABILITY TESTING WORKFLOW
+# 🔬 09. COMPLETE VULNERABILITY TESTING WORKFLOW
 
 ```mermaid
-flowchart TD
-    A["AUTHORIZED LAB TARGET"]
-    B["INFORMATION GATHERING"]
-    C["RECONNAISSANCE"]
-    D["APPLICATION MAPPING"]
-    E["MANUAL TESTING"]
-    F["VULNERABILITY IDENTIFICATION"]
-    G["VALIDATION"]
-    H["IMPACT ANALYSIS"]
-    I["REMEDIATION"]
-    J["TECHNICAL REPORT"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    I --> J
+flowchart LR
+    A["AUTHORIZED TARGET"] --> B["INFORMATION GATHERING"]
+    B --> C["RECONNAISSANCE"]
+    C --> D["APPLICATION MAPPING"]
+    D --> E["MANUAL TESTING"]
+    E --> F["FINDING VALIDATION"]
+    F --> G["IMPACT ANALYSIS"]
+    G --> H["REMEDIATION"]
+    H --> I["FINAL REPORT"]
 
     style A fill:#075985,color:#fff
     style F fill:#7c2d12,color:#fff
-    style J fill:#166534,color:#fff
+    style I fill:#166534,color:#fff
 ```
 
 ---
 
-# 🧪 09. PRACTICAL LEARNING ENVIRONMENTS
+# 🧪 10. PRACTICAL LEARNING ENVIRONMENTS
 
 ## OWASP Juice Shop
 
-OWASP Juice Shop is an intentionally vulnerable web application created for web security education and practical testing.
+OWASP Juice Shop is an intentionally vulnerable web application designed for cybersecurity education and practical security testing.
 
-Official resource:
+Official Website:
 
 https://owasp.org/www-project-juice-shop/
 
 ## PortSwigger Web Security Academy
 
-PortSwigger Web Security Academy provides free learning resources and interactive labs covering web application security vulnerabilities.
+PortSwigger Web Security Academy provides free web security learning resources and interactive practical labs.
 
-Official resource:
+Official Website:
 
 https://portswigger.net/web-security
 
 ---
 
-# 📊 10. SECURITY REMEDIATION REFERENCE
+# 🛡️ 11. SECURITY REMEDIATION REFERENCE
 
 | Vulnerability | Recommended Protection |
 |---|---|
@@ -689,7 +742,7 @@ https://portswigger.net/web-security
 
 ---
 
-# 📝 11. VULNERABILITY REPORTING FORMAT
+# 📝 12. VULNERABILITY REPORTING FORMAT
 
 Every practical finding should be documented using a consistent structure.
 
@@ -715,9 +768,9 @@ Only include findings that have actually been tested and verified.
 
 ---
 
-# 📈 12. LEARNING OUTCOMES
+# 📊 13. LEARNING OUTCOMES
 
-After completing these modules, learners are expected to understand:
+After studying these modules, learners are expected to understand:
 
 - Web application architecture.
 - HTTP request and response analysis.
@@ -726,18 +779,21 @@ After completing these modules, learners are expected to understand:
 - Burp Suite Repeater.
 - Common web application vulnerabilities.
 - Manual security testing.
-- Security impact analysis.
+- Security impact assessment.
 - Vulnerability remediation.
 - Professional technical documentation.
 
 ---
 
-# 📂 13. REPOSITORY STRUCTURE
+# 📂 14. REPOSITORY STRUCTURE
 
 ```text
 Web-Application-Basics/
 │
 ├── README.md
+│
+├── assets/
+│   └── wapt-security.gif
 │
 └── Rohit_WAPT_Phase-1/
     │
@@ -769,33 +825,35 @@ Web-Application-Basics/
 
 ---
 
-# 📚 14. REFERENCES & OFFICIAL RESOURCES
+# 📚 15. REFERENCES & OFFICIAL RESOURCES
 
-1. OWASP Top 10 – https://owasp.org/www-project-top-ten/
-2. OWASP Web Security Testing Guide – https://owasp.org/www-project-web-security-testing-guide/
-3. OWASP Juice Shop – https://owasp.org/www-project-juice-shop/
-4. PortSwigger Web Security Academy – https://portswigger.net/web-security
-5. MDN Web Docs – https://developer.mozilla.org/
-6. Nmap Documentation – https://nmap.org/book/man.html
-7. Burp Suite Documentation – https://portswigger.net/burp/documentation
-8. Nuclei Documentation – https://docs.projectdiscovery.io/tools/nuclei
-9. Kali Linux Documentation – https://www.kali.org/docs/
+| Resource | Official Website |
+|---|---|
+| OWASP Top 10 | https://owasp.org/www-project-top-ten/ |
+| OWASP WSTG | https://owasp.org/www-project-web-security-testing-guide/ |
+| OWASP Juice Shop | https://owasp.org/www-project-juice-shop/ |
+| PortSwigger Academy | https://portswigger.net/web-security |
+| MDN Web Docs | https://developer.mozilla.org/ |
+| Nmap Documentation | https://nmap.org/book/man.html |
+| Burp Suite Documentation | https://portswigger.net/burp/documentation |
+| Nuclei Documentation | https://docs.projectdiscovery.io/tools/nuclei |
+| Kali Linux Documentation | https://www.kali.org/docs/ |
 
 ---
 
-# ⚠️ 15. DISCLAIMER
+# ⚠️ 16. DISCLAIMER
 
 This repository is intended strictly for educational purposes and authorized cybersecurity training.
 
-All practical security testing must be performed on personally owned systems, intentionally vulnerable lab environments, or systems for which explicit permission has been obtained.
+All practical testing must be performed on personally owned systems, intentionally vulnerable lab environments, or systems for which explicit authorization has been obtained.
 
 Unauthorized access, exploitation, data theft, or disruption of third-party systems is not supported.
 
-The commands and examples provided are learning references, not confirmation that any vulnerability exists in a particular application.
+The commands and examples provided are learning references and do not confirm that any vulnerability exists in a particular application.
 
 ---
 
-# 👨‍💻 16. INTERNSHIP INFORMATION
+# 👨‍💻 17. INTERNSHIP INFORMATION
 
 | Detail | Information |
 |---|---|
@@ -811,12 +869,14 @@ The commands and examples provided are learning references, not confirmation tha
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&height=65&lines=Think+Like+a+Security+Researcher;Learn+Ethically+%7C+Practice+Responsibly;Build+Secure+Applications" alt="Animated Closing Banner"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&height=65&lines=THINK+LIKE+A+SECURITY+RESEARCHER;LEARN+ETHICALLY;PRACTICE+RESPONSIBLY;BUILD+SECURE+APPLICATIONS" alt="Animated Closing Banner"/>
 
-### LEARN • ANALYZE • TEST • SECURE
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:075985,100:0F172A&height=5&section=footer" width="100%"/>
 
-**Building a Strong Foundation in Web Application Security**
+### GHOSTMASKR | WEB APPLICATION SECURITY
 
-*Documentation maintained as part of the IqraSec Academy WAPT Internship.*
+**LEARN • ANALYZE • TEST • SECURE**
+
+*Building a strong foundation in Web Application Security.*
 
 </div>
