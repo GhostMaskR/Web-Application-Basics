@@ -1,0 +1,4 @@
+Lab Name: Reflected XSS into HTML context with nothing encoded
+Platform: PortSwigger
+URL: https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded
+---------------------------------------------

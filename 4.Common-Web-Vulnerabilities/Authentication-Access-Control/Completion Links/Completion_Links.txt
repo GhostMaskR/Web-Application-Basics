@@ -1,0 +1,4 @@
+Lab Name: Authentication-Access-Control
+Platform: TryHackMe
+URL: https://tryhackme.com/room/authenticationbypass?utm_source=chatgpt.com
+---------------------------------------------

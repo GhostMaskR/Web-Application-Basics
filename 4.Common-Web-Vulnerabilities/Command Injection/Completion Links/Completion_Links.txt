@@ -1,0 +1,4 @@
+Lab Name: Command Injection
+Platform: Other
+URL: https://tryhackme.com/room/oscommandinjection?utm_source=chatgpt.com
+---------------------------------------------

@@ -1,0 +1,4 @@
+Lab Name: CSRF intro
+Platform: TryHackMe
+URL: https://tryhackme.com/room/csrfintroduction
+---------------------------------------------

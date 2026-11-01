@@ -1,0 +1,4 @@
+Lab Name: IDOR
+Platform: TryHackMe
+URL: https://tryhackme.com/room/idor?utm_source=chatgpt.com
+---------------------------------------------

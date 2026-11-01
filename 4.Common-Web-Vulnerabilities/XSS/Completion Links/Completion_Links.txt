@@ -1,0 +1,4 @@
+Lab Name: XSS
+Platform: TryHackMe
+URL: https://tryhackme.com/room/xssintroduction?utm_source=chatgpt.com
+---------------------------------------------

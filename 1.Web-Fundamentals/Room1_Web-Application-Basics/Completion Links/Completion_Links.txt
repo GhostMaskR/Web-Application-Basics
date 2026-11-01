@@ -1,0 +1,9 @@
+Room Name: Web Application Basics
+Platform: TryHackMe
+Completion Status: Completed
+Completion URL: [Paste your actual room link]
+Room Name: Room1_Web-Application-Basics
+Category: 1.Web-Fundamentals
+Platform: tryhackme
+Completion URL: https://tryhackme.com/room/webapplicationbasics
+--------------------------------------------------

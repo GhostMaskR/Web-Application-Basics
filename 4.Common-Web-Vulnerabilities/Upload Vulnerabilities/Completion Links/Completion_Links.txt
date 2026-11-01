@@ -1,0 +1,4 @@
+Lab Name: Upload Vulnerabilities
+Platform: TryHackMe
+URL: https://tryhackme.com/room/uploadvulns?utm_source=chatgpt.com
+---------------------------------------------

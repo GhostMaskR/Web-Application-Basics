@@ -1,0 +1,5 @@
+Room Name: Room3_Content-Discovery
+Category: 2.Recon-Enumeration
+Platform: TryHackMe
+Completion URL: https://tryhackme.com/room/contentdiscoveryx
+--------------------------------------------------

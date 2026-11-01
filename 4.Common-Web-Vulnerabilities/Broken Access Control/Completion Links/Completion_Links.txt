@@ -1,0 +1,4 @@
+Lab Name: Broken Access Control
+Platform: TryHackMe
+URL: https://desc.tryhackme.com/room/owaspjuiceshop?utm_source=chatgpt.com
+---------------------------------------------

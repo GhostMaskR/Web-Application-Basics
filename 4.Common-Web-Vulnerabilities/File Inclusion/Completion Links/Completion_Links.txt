@@ -1,0 +1,4 @@
+Lab Name: File Inclusion
+Platform: TryHackMe
+URL: https://tryhackme.com/room/uploadvulns?utm_source=chatgpt.com
+---------------------------------------------

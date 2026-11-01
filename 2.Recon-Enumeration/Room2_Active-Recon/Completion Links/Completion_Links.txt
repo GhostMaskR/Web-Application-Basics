@@ -1,0 +1,5 @@
+Room Name: Room2_Active-Recon
+Category: 2.Recon-Enumeration
+Platform: TryHackMe
+Completion URL: https://tryhackme.com/room/activerecon
+--------------------------------------------------

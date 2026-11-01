@@ -1,0 +1,4 @@
+Lab Name: SQL-Injection
+Platform: TryHackMe
+URL: https://tryhackme.com/room/sqlinjectionintroduction?utm_source=chatgpt.com
+---------------------------------------------
