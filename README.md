@@ -50,6 +50,8 @@ Building a strong foundation in Web Application Security through structured lear
 21. [Internship Information](#-21-internship-information)
 22. [Next Steps](#-22-next-steps-planned)
 23. [Author](#-23-author)
+24. [Conclusion](#-24-conclusion)
+25. [Appendix A — Tracker Script](#-appendix-a--tracker-auto-update-script)
 
 ---
 
@@ -1240,6 +1242,128 @@ These are plans, not completed work.
 **Rohit** — GitHub: [GhostMaskR](https://github.com/GhostMaskR)
 
 Cybersecurity student documenting a hands-on path into web application security.
+
+---
+
+# 🤖 APPENDIX A — TRACKER AUTO-UPDATE SCRIPT
+
+This script scans the repository and fills the [Lab Progress Tracker](#-14-lab-progress-tracker) automatically, so the tracker reflects real files instead of guesses.
+
+**How to use**
+
+1. Copy the code below into a file named `update_tracker.py` in the repository root (the folder that contains `README.md` and `Rohit_WAPT_Phase-1/`).
+2. Run a preview first: `python update_tracker.py --dry-run`
+3. Then update the README: `python update_tracker.py`
+4. Re-run it whenever a new PDF or screenshot is added.
+
+**Limits:** it checks that files **exist**, not that they are **good**. An empty PDF still counts as documented. Folder names in the `LABS` list must match your real folder names exactly.
+
+<details>
+<summary><b>Click to expand: update_tracker.py</b></summary>
+
+```python
+#!/usr/bin/env python3
+"""
+update_tracker.py - scans your WAPT repo and rewrites the Lab Progress Tracker in README.md.
+
+Usage (run from the repo root, the folder that contains README.md):
+    python update_tracker.py            # update README.md
+    python update_tracker.py --dry-run  # just print the table
+
+Status logic (deliberately simple and honest):
+    ✅  folder has at least one PDF   -> documentation exists
+    🟨  folder exists but no PDF      -> started, not documented
+    ⬜  folder missing                -> not started
+It cannot judge QUALITY. A bad PDF still shows ✅. Check your own work.
+"""
+import re
+import sys
+from pathlib import Path
+from urllib.parse import quote
+
+ROOT = Path(__file__).resolve().parent
+BASE = "Rohit_WAPT_Phase-1"
+IMG_EXT = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
+
+# (area, lab name, folder path relative to BASE)
+LABS = [
+    ("Web Fundamentals", "Web Application Basics", "1.Web-Fundamentals/Room1_Web-Application-Basics"),
+    ("Web Fundamentals", "HTTP in Detail", "1.Web-Fundamentals/Room2_HTTP-in-Detail"),
+    ("Recon", "Passive Recon", "2.Recon-Enumeration/Room1_Passive-Recon"),
+    ("Recon", "Active Recon", "2.Recon-Enumeration/Room2_Active-Recon"),
+    ("Recon", "Content Discovery", "2.Recon-Enumeration/Room3_Content-Discovery"),
+    ("Burp Suite", "Repeater", "3.Burp-Suite/Room1_Burp-Suite-Repeater"),
+    ("Vulnerabilities", "Authentication & Access Control", "4.Common-Web-Vulnerabilities/Authentication-Access-Control"),
+    ("Vulnerabilities", "Broken Access Control", "4.Common-Web-Vulnerabilities/Broken Access Control"),
+    ("Vulnerabilities", "Command Injection", "4.Common-Web-Vulnerabilities/Command Injection"),
+    ("Vulnerabilities", "CSRF", "4.Common-Web-Vulnerabilities/CSRF intro"),
+    ("Vulnerabilities", "File Inclusion", "4.Common-Web-Vulnerabilities/File Inclusion"),
+    ("Vulnerabilities", "IDOR", "4.Common-Web-Vulnerabilities/IDOR"),
+    ("Vulnerabilities", "OWASP Juice Shop", "4.Common-Web-Vulnerabilities/OWASP JUICE SHOP"),
+    ("Vulnerabilities", "PortSwigger Labs", "4.Common-Web-Vulnerabilities/PortSwigger-Lab"),
+    ("Vulnerabilities", "SQL Injection", "4.Common-Web-Vulnerabilities/SQL-Injection"),
+    ("Vulnerabilities", "Upload Vulnerabilities", "4.Common-Web-Vulnerabilities/Upload Vulnerabilities"),
+    ("Vulnerabilities", "XSS", "4.Common-Web-Vulnerabilities/XSS"),
+]
+
+
+def link(path: Path) -> str:
+    return quote(path.relative_to(ROOT).as_posix())
+
+
+def scan(rel: str):
+    folder = ROOT / BASE / rel
+    if not folder.is_dir():
+        return "⬜", "—"
+    files = [p for p in folder.rglob("*") if p.is_file()]
+    pdfs = sorted(p for p in files if p.suffix.lower() == ".pdf")
+    imgs = [p for p in files if p.suffix.lower() in IMG_EXT]
+    if not pdfs:
+        extra = f"{len(imgs)} screenshot(s), no PDF" if imgs else "folder empty"
+        return "🟨", extra
+    parts = [f"[PDF]({link(pdfs[0])})"]
+    if len(pdfs) > 1:
+        parts.append(f"+{len(pdfs) - 1} more PDF")
+    if imgs:
+        parts.append(f"{len(imgs)} screenshot(s)")
+    return "✅", " · ".join(parts)
+
+
+def build_table() -> str:
+    rows = ["| Area | Lab / Room | Status | Evidence |", "|---|---|---|---|"]
+    done = 0
+    for area, name, rel in LABS:
+        status, evidence = scan(rel)
+        done += status == "✅"
+        rows.append(f"| {area} | {name} | {status} | {evidence} |")
+    rows.append("")
+    rows.append(f"**Progress: {done}/{len(LABS)} labs documented.**")
+    return "\n".join(rows)
+
+
+def main():
+    table = build_table()
+    if "--dry-run" in sys.argv:
+        print(table)
+        return
+    readme = ROOT / "README.md"
+    if not readme.exists():
+        sys.exit("README.md not found. Run this from the repo root.")
+    text = readme.read_text(encoding="utf-8")
+    pattern = re.compile(r"\| Area \| Lab / Room \| Status \| Evidence \|.*?(?=\n\*\*Legend:\*\*)", re.S)
+    if not pattern.search(text):
+        sys.exit("Tracker table not found in README.md (header row changed?).")
+    new_text = pattern.sub(lambda m: table + "\n", text, count=1)
+    readme.write_text(new_text, encoding="utf-8")
+    print("README.md tracker updated.")
+    print(table)
+
+
+if __name__ == "__main__":
+    main()
+```
+
+</details>
 
 ---
 
