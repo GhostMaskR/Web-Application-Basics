@@ -1,4 +1,4 @@
-{align="center"}
+::: {align="center"}
 `<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=900&color=00D9FF&center=true&vCenter=true&width=900&height=70&lines=WEB+APPLICATION+SECURITY;WEB+APPLICATION+PENETRATION+TESTING;LEARN+%7C+ANALYZE+%7C+TEST+%7C+SECURE;THINK+LIKE+A+SECURITY+RESEARCHER" alt="Animated WAPT Header"/>`{=html}
 
 `<img src="assets/wapt-security.gif" width="850" alt="Cybersecurity Animation"/>`{=html}
@@ -617,3 +617,4 @@ GitHub Profile      GhostMaskR
 **LEARN • ANALYZE • TEST • SECURE**
 
 *Building a strong foundation in Web Application Security.*
+:::
