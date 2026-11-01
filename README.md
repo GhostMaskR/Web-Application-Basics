@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=900&color=00D9FF&center=true&vCenter=true&width=900&height=70&lines=WEB+APPLICATION+SECURITY;WEB+APPLICATION+PENETRATION+TESTING;LEARN+%7C+ANALYZE+%7C+TEST+%7C+SECURE;THINK+LIKE+A+SECURITY+RESEARCHER" alt="Animated Web Application Security Header"/>
+
+<img src="assets/wapt-security.gif" width="850" alt="Web Application Security Animation"/>
+
 # 🌐 WEB APPLICATION SECURITY
 
 ### Web Application Penetration Testing — Phase 1
@@ -8,11 +12,11 @@
 
 Building a strong foundation in Web Application Security through structured learning, technical documentation, authorized practical labs, and vulnerability analysis.
 
-![Domain](https://img.shields.io/badge/Domain-Web%20Application%20Security-0078D7?style=for-the-badge)
-![Focus](https://img.shields.io/badge/Focus-WAPT-critical?style=for-the-badge)
-![Internship](https://img.shields.io/badge/Internship-IqraSec%20Academy-red?style=for-the-badge)
-![Phase](https://img.shields.io/badge/Phase-01-success?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Learning%20%26%20Documentation-blueviolet?style=for-the-badge)
+![Domain](https://img.shields.io/badge/DOMAIN-WAPT-0078D7?style=for-the-badge)
+![Internship](https://img.shields.io/badge/INTERNSHIP-IQRASEC%20ACADEMY-red?style=for-the-badge)
+![Phase](https://img.shields.io/badge/PHASE-01-success?style=for-the-badge)
+![Focus](https://img.shields.io/badge/FOCUS-LEARNING-orange?style=for-the-badge)
+![Documentation](https://img.shields.io/badge/DOCUMENTATION-TECHNICAL-blueviolet?style=for-the-badge)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/GhostMaskR/Web-Application-Basics)
 ![GitHub repo size](https://img.shields.io/github/repo-size/GhostMaskR/Web-Application-Basics)
@@ -22,44 +26,48 @@ Building a strong foundation in Web Application Security through structured lear
 
 ---
 
-# 01. About the Project
+# 📌 01. About the Project
 
 Welcome to **Web Application Security — WAPT Phase 1**.
 
 This repository documents my learning and practical work in Web Application Penetration Testing (WAPT) as part of my Web Application Penetration Testing internship at IqraSec Academy.
 
-The purpose of this repository is to develop a structured understanding of how web applications operate, how browsers communicate with servers, how application components process user input, and how security professionals identify and validate common web application vulnerabilities.
+The primary objective is to understand how web applications operate, how browsers communicate with servers, how application components process user input, and how security professionals identify and validate common web application vulnerabilities.
 
-Web applications are built using multiple components, including client-side interfaces, application logic, web servers, APIs, databases, authentication mechanisms, and access-control systems. Weaknesses in the design, implementation, or configuration of these components can introduce security risks.
+Modern web applications consist of multiple interconnected components, including frontend interfaces, backend services, APIs, databases, authentication mechanisms, session-management systems, and access-control policies. Weaknesses in the design, implementation, or configuration of these components can introduce security risks.
 
-Through this learning phase, I am studying the technologies behind web applications and the methodologies used to assess their security.
+Through this learning phase, I am developing a structured understanding of web technologies, reconnaissance, HTTP traffic analysis, vulnerability assessment, security remediation, and technical reporting.
 
-This repository brings together technical notes, PDF documentation, lab references, tool usage, testing procedures, security observations, and remediation guidance.
+This repository brings together learning documentation, PDF reports, lab references, tool usage, testing procedures, security concepts, and practical observations.
 
 ## What This Repository Contains
 
 - Web application fundamentals and architecture.
 - HTTP and HTTPS communication.
 - Client-server request and response analysis.
+- HTTP methods, status codes, headers, cookies, and sessions.
 - DNS fundamentals and web technologies.
 - Passive and active reconnaissance.
 - DNS enumeration and subdomain discovery.
-- Content discovery and attack-surface mapping.
+- Technology identification and content discovery.
+- Attack-surface mapping.
 - Burp Suite fundamentals and Repeater.
 - Common web application vulnerabilities.
-- Practical security-testing references.
-- Command-line tools and example commands.
-- Vulnerability analysis and remediation guidance.
+- Security-testing tools and command-line examples.
+- Vulnerability validation and impact analysis.
+- Security remediation and defensive practices.
 - Technical documentation and reporting templates.
-- References to established web security learning resources.
+- References to established web security resources.
 
 > **Project status:** This repository documents learning material and practical exercises. A topic appearing in the documentation does not automatically mean that every associated test has been performed or that a vulnerability has been confirmed.
 
+**Designed for:** Cybersecurity students, beginners, and aspiring Web Application Penetration Testers.
+
 ---
 
-# 02. Project Objectives
+# 🎯 02. Project Objectives
 
-The primary objective of Phase 1 is to establish a practical foundation in web application security.
+The primary goal of Phase 1 is to establish a practical foundation in web application security.
 
 ## Technical Objectives
 
@@ -67,219 +75,208 @@ The primary objective of Phase 1 is to establish a practical foundation in web a
 2. Learn the differences between frontend and backend technologies.
 3. Understand HTTP and HTTPS communication.
 4. Analyze HTTP methods, status codes, headers, cookies, and sessions.
-5. Understand DNS resolution and basic domain infrastructure.
+5. Understand DNS resolution and domain infrastructure.
 6. Learn passive and active reconnaissance methodologies.
-7. Identify technologies and services exposed by an authorized target.
-8. Understand directory discovery and content enumeration.
+7. Identify technologies and services exposed by authorized targets.
+8. Understand DNS enumeration and content discovery.
 9. Learn to intercept and analyze HTTP traffic using Burp Suite.
-10. Modify and resend requests using Burp Suite Repeater.
+10. Understand request modification and response analysis using Repeater.
 11. Study common web application vulnerability classes.
 12. Understand authentication and authorization controls.
-13. Learn basic vulnerability validation in controlled environments.
-14. Assess potential security impact without unnecessary exploitation.
-15. Understand remediation strategies and secure development practices.
+13. Learn vulnerability validation in controlled environments.
+14. Assess potential confidentiality, integrity, and availability impacts.
+15. Understand vulnerability root causes and remediation.
 16. Develop consistent technical documentation and reporting skills.
 
-## Learning Objectives
+## Learning Outcomes
 
 By working through this repository, I aim to improve my ability to:
 
-- Explain technical concepts clearly.
-- Understand the purpose of security-testing tools.
+- Explain web application technologies clearly.
 - Interpret HTTP requests and responses.
-- Follow a repeatable testing methodology.
-- Distinguish a potential vulnerability from a validated finding.
-- Record relevant evidence and testing conditions.
-- Explain the root cause and potential impact of a security weakness.
-- Recommend appropriate corrective measures.
+- Understand application behavior and security controls.
+- Follow a repeatable security-testing methodology.
+- Distinguish potential vulnerabilities from validated findings.
+- Record relevant evidence and reproduction steps.
+- Explain technical impact without making unsupported claims.
+- Recommend practical remediation measures.
+- Maintain clear and organized technical documentation.
 
 ---
 
-# 03. Web Application Penetration Testing Overview
+# 🗺️ 03. WAPT Learning Roadmap
 
-Web Application Penetration Testing is a structured security-assessment process used to identify and validate weaknesses in web applications within an authorized scope.
-
-A professional assessment is not simply a collection of commands or automated scans. It requires understanding the target application, selecting appropriate test cases, analyzing application behavior, validating observations, and documenting the results.
-
-## General WAPT Methodology
-
-```text
-        AUTHORIZED SCOPE
-               |
-               v
-       INFORMATION GATHERING
-               |
-               v
-       RECONNAISSANCE
-               |
-               v
-       APPLICATION MAPPING
-               |
-               v
-       SECURITY TESTING
-               |
-               v
-       FINDING VALIDATION
-               |
-               v
-        IMPACT ANALYSIS
-               |
-               v
-          REMEDIATION
-               |
-               v
-       TECHNICAL REPORTING
-```
-
-## Explanation of Each Stage
-
-| Stage | Purpose |
-|---|---|
-| Scope Definition | Establish authorized targets, boundaries, and testing restrictions. |
-| Information Gathering | Collect relevant information about the application and its environment. |
-| Reconnaissance | Identify domains, services, technologies, and publicly available information. |
-| Application Mapping | Understand pages, endpoints, parameters, workflows, and application functionality. |
-| Security Testing | Test relevant security controls and potential vulnerability classes. |
-| Finding Validation | Determine whether observed behavior represents a reproducible security weakness. |
-| Impact Analysis | Explain the potential confidentiality, integrity, or availability impact. |
-| Remediation | Recommend measures to address the underlying weakness. |
-| Technical Reporting | Document evidence, reproduction steps, impact, and corrective actions. |
-
-The exact methodology depends on the application, authorization, assessment scope, and testing constraints.
-
----
-
-# 04. Web Fundamentals
-
-**Objective:** Understand the technologies and communication mechanisms that form the foundation of modern web applications.
-
-## 4.1 What Is a Web Application?
-
-A web application is software accessed through a web browser or another HTTP-capable client.
-
-Examples include online banking portals, e-commerce websites, dashboards, content-management systems, and cloud-based productivity platforms.
-
-A typical web application includes:
-
-- **Client:** The browser or application that initiates requests.
-- **Frontend:** The user-facing interface, commonly built with HTML, CSS, and JavaScript.
-- **Backend:** The server-side application logic.
-- **Web server:** Software that handles HTTP requests and serves or forwards responses.
-- **Database:** A system that stores and retrieves application data.
-- **API:** An interface through which application components exchange data.
-- **Authentication:** Mechanisms used to verify identity.
-- **Authorization:** Mechanisms used to control access to resources and operations.
-
-## 4.2 Client-Server Architecture
-
-In a typical client-server model, the client sends a request and the server returns a response.
+The repository follows a structured learning path, progressing from web fundamentals to vulnerability analysis and technical reporting.
 
 ```mermaid
 flowchart TD
-    A["User"] --> B["Web Browser"]
-    B --> C["HTTP / HTTPS Request"]
-    C --> D["Web Server"]
-    D --> E["Application Logic"]
-    E --> F[("Database")]
-    F --> E
-    E --> G["HTTP Response"]
-    G --> B
-    B --> H["Rendered Web Page"]
+    A(["START"]) --> B["01. WEB FUNDAMENTALS"]
+    B --> C["02. RECONNAISSANCE & ENUMERATION"]
+    C --> D["03. BURP SUITE"]
+    D --> E["04. COMMON WEB VULNERABILITIES"]
+    E --> F["05. AUTHORIZED PRACTICAL LABS"]
+    F --> G["06. FINDING VALIDATION"]
+    G --> H["07. IMPACT ANALYSIS"]
+    H --> I["08. REMEDIATION"]
+    I --> J["09. TECHNICAL REPORTING"]
+    J --> K(["LEARNING OUTCOMES"])
+
+    style A fill:#075985,color:#fff
+    style E fill:#7c2d12,color:#fff
+    style K fill:#166534,color:#fff
 ```
 
-The database is not necessarily accessed directly by the browser. In a conventional architecture, the backend processes the request and communicates with the database according to application rules.
+## Learning Stages
+
+| Stage | Focus | Expected Outcome |
+|---|---|---|
+| Web Fundamentals | HTTP, HTTPS, architecture, DNS | Understand how web applications communicate. |
+| Reconnaissance | Information gathering and enumeration | Identify the authorized application's attack surface. |
+| Burp Suite | Proxy, Repeater, HTTP analysis | Inspect and compare application requests and responses. |
+| Vulnerability Fundamentals | Common web security weaknesses | Understand vulnerability causes and behavior. |
+| Practical Labs | Controlled security exercises | Apply concepts in intentionally vulnerable environments. |
+| Finding Validation | Manual verification and evidence | Determine whether an observed weakness is reproducible. |
+| Impact Analysis | Risk and business impact | Explain the realistic consequences of a finding. |
+| Remediation | Defensive controls | Recommend fixes that address root causes. |
+| Technical Reporting | Documentation and evidence | Communicate findings clearly and professionally. |
+
+This roadmap describes the learning structure. Individual stages should be marked complete only when the associated exercises or learning objectives have been completed.
+
+---
+
+# 🌐 04. Web Fundamentals
+
+**Objective:** Understand the structure, technologies, and communication mechanisms of modern web applications.
+
+## 4.1 What Is a Web Application?
+
+A web application is software accessed through a browser or another HTTP-capable client.
+
+Examples include e-commerce platforms, online banking portals, dashboards, content-management systems, and cloud-based services.
+
+A typical web application may contain the following components:
+
+| Component | Function |
+|---|---|
+| Client | Initiates requests to the application. |
+| Frontend | Presents the user interface and handles browser-side interactions. |
+| Backend | Implements server-side application logic. |
+| Web Server | Handles HTTP requests and serves or forwards responses. |
+| Database | Stores and retrieves application data. |
+| API | Defines interfaces through which application components communicate. |
+| Authentication | Verifies the identity of a user or client. |
+| Authorization | Determines which resources and operations a user may access. |
+| Session Management | Maintains authenticated state across requests. |
+
+Understanding these components helps identify where security controls should be implemented and how failures can affect the application.
+
+## 4.2 Client-Server Architecture
+
+```mermaid
+flowchart TD
+    A["USER"] --> B["WEB BROWSER"]
+    B --> C["HTTP / HTTPS REQUEST"]
+    C --> D["WEB SERVER"]
+    D --> E["APPLICATION LOGIC"]
+    E --> F[("DATABASE")]
+    F --> E
+    E --> G["HTTP RESPONSE"]
+    G --> B
+    B --> H["RENDERED WEB PAGE"]
+```
+
+In a typical architecture, the browser sends a request to the server, the application processes the request, and the server returns a response.
+
+The backend may interact with a database, authentication provider, or other internal service before generating the response.
 
 ### Security Relevance
 
-Security testing examines whether the application:
+A security assessment may examine:
 
-- Validates user input appropriately.
-- Enforces authentication and authorization.
-- Protects sensitive information.
-- Handles sessions securely.
-- Prevents unauthorized database operations.
-- Returns appropriate error messages.
-- Protects sensitive operations against unintended requests.
+- Input validation.
+- Authentication and authorization.
+- Session handling.
+- API security.
+- Database query construction.
+- Error handling.
+- Sensitive data exposure.
+- Server configuration.
+- Access to restricted resources.
 
 ## 4.3 HTTP and HTTPS
 
 HTTP is an application-layer protocol used for communication between clients and servers.
 
-HTTPS is HTTP carried over TLS, which provides transport encryption and helps authenticate the server.
+HTTPS is HTTP carried over TLS, providing transport encryption and helping authenticate the server.
 
-HTTPS does not automatically make an application secure. Application-level vulnerabilities can still exist when HTTPS is correctly configured.
+HTTPS protects data in transit, but it does not automatically eliminate application-level vulnerabilities such as SQL Injection, XSS, or Broken Access Control.
 
 ### Common HTTP Methods
 
-| Method | General Purpose |
+| Method | Purpose |
 |---|---|
-| GET | Retrieve a representation of a resource. |
+| GET | Retrieve a resource representation. |
 | POST | Submit data or request an operation. |
 | PUT | Create or replace a resource representation, depending on the API design. |
-| PATCH | Apply a partial modification to a resource. |
-| DELETE | Request deletion of a resource. |
+| PATCH | Apply a partial modification. |
+| DELETE | Request resource deletion. |
 | HEAD | Retrieve response headers without the response body. |
 | OPTIONS | Discover communication options supported by a resource. |
 
-The actual behavior of a method depends on the application's implementation.
-
 ### Common HTTP Status Codes
 
-| Status Code | Meaning |
+| Code | Meaning |
 |---|---|
-| 200 OK | The request succeeded. |
-| 201 Created | A resource was created successfully. |
-| 301 Moved Permanently | The resource has a permanent redirect. |
-| 302 Found | A temporary redirect is indicated. |
-| 400 Bad Request | The request cannot be processed as submitted. |
-| 401 Unauthorized | Authentication is required or has failed. |
-| 403 Forbidden | The server refuses the requested operation. |
-| 404 Not Found | The requested resource was not found or is not disclosed. |
-| 405 Method Not Allowed | The method is not supported for that resource. |
-| 429 Too Many Requests | The client has exceeded a rate limit. |
-| 500 Internal Server Error | The server encountered an unexpected condition. |
-| 503 Service Unavailable | The service is temporarily unavailable. |
+| 200 | Request succeeded. |
+| 201 | Resource created successfully. |
+| 301 | Permanent redirect. |
+| 302 | Temporary redirect. |
+| 400 | Bad request. |
+| 401 | Authentication is required or has failed. |
+| 403 | Requested operation is refused. |
+| 404 | Resource not found or not disclosed. |
+| 405 | HTTP method not supported for the resource. |
+| 429 | Rate limit exceeded. |
+| 500 | Internal server error. |
+| 503 | Service temporarily unavailable. |
 
-A status code alone does not prove that an application is vulnerable. The response must be interpreted in the context of the request, application behavior, and security requirements.
+Status codes must be interpreted in context. A `403` response does not automatically prove that authorization is secure, and a `200` response does not establish that access is permitted.
 
 ## 4.4 Headers, Cookies, and Sessions
 
-HTTP headers provide metadata about requests and responses.
+HTTP headers carry metadata about requests and responses.
 
-Cookies allow a server to store or retrieve small pieces of information through a browser. They are frequently used to maintain session identifiers and user preferences.
+Cookies allow the browser to store small pieces of information that may be sent back to the server. Applications commonly use cookies to maintain session identifiers.
 
-A session allows an application to associate multiple requests with a user's authenticated state.
-
-Important security considerations include:
-
-- Secure session identifier generation.
-- Session expiration and invalidation.
-- Protection against session fixation.
-- Appropriate cookie security attributes.
-- Server-side authorization checks.
-- Avoiding sensitive information in URLs.
-- Preventing session identifiers from being exposed unnecessarily.
-
-Common cookie attributes include:
+Important cookie attributes include:
 
 | Attribute | Purpose |
 |---|---|
-| Secure | Restricts cookie transmission to secure HTTPS connections. |
+| Secure | Restricts transmission to HTTPS connections. |
 | HttpOnly | Prevents ordinary client-side JavaScript from reading the cookie. |
-| SameSite | Controls when browsers send cookies in cross-site contexts. |
-| Path | Limits the URL paths for which the cookie is sent. |
+| SameSite | Controls cookie sending in cross-site contexts. |
+| Path | Limits the URL paths to which the cookie applies. |
 | Domain | Defines the hosts to which the cookie applies. |
-| Expires / Max-Age | Controls cookie persistence. |
+| Expires / Max-Age | Controls persistence. |
+
+Security testing should also examine session expiration, logout behavior, session invalidation, session fixation risks, and server-side authorization.
+
+## 4.5 Documentation
+
+| Room | Topic | Documentation |
+|---|---|---|
+| Room 01 | Web Application Basics | [View PDF](1.Web-Fundamentals/Room1_Web-Application-Basics/Room1_Web-Application-Basics.pdf) |
+| Room 02 | HTTP in Detail | [View PDF](1.Web-Fundamentals/Room2_HTTP-in-Detail/Room2_HTTP-in-Detail.pdf) |
+
+**Note:** These links assume the listed PDF filenames exist at those exact paths. Adjust them to match the actual repository.
 
 ---
 
-# 05. Reconnaissance and Enumeration
+# 🔎 05. Reconnaissance and Enumeration
 
-**Objective:** Understand how security professionals identify the exposed attack surface of an authorized web application.
+**Objective:** Understand how security professionals collect information about authorized targets and identify their exposed attack surface.
 
-Reconnaissance collects information about a target. Enumeration examines discovered assets and services to understand their characteristics.
-
-The techniques used depend on the assessment scope and the level of authorization provided.
+Reconnaissance focuses on information gathering, while enumeration examines discovered assets and services to understand their characteristics.
 
 ## 5.1 Passive Reconnaissance
 
@@ -289,12 +286,10 @@ Examples include:
 
 - Public DNS records.
 - Certificate transparency information.
-- Public documentation.
 - Search-engine results.
+- Public documentation.
 - Publicly available technology information.
 - Organization-owned repositories and published assets.
-
-Passive techniques can still have privacy, contractual, or scope considerations. Follow the engagement rules.
 
 ## 5.2 Active Reconnaissance
 
@@ -306,46 +301,46 @@ Examples include:
 - Port and service discovery.
 - HTTP response inspection.
 - Technology identification.
-- Directory and content discovery.
+- Directory discovery.
 - Application endpoint enumeration.
 
-Active testing can generate logs, trigger defensive controls, or affect application performance. Apply appropriate rate limits and testing restrictions.
+Active testing can generate logs, trigger defensive controls, or affect application performance. Apply the engagement's rate limits and testing restrictions.
 
 ## 5.3 Reconnaissance Workflow
 
 ```mermaid
 flowchart TD
-    A["Authorized Target"] --> B["Scope Verification"]
-    B --> C["Passive Reconnaissance"]
-    C --> D["DNS and Domain Information"]
-    D --> E["Active Reconnaissance"]
-    E --> F["Service Identification"]
-    F --> G["Technology Detection"]
-    G --> H["Content Discovery"]
-    H --> I["Attack-Surface Mapping"]
-    I --> J["Documentation"]
+    A["AUTHORIZED TARGET"] --> B["SCOPE VERIFICATION"]
+    B --> C["PASSIVE RECONNAISSANCE"]
+    C --> D["DNS AND DOMAIN INFORMATION"]
+    D --> E["ACTIVE RECONNAISSANCE"]
+    E --> F["SERVICE IDENTIFICATION"]
+    F --> G["TECHNOLOGY DETECTION"]
+    G --> H["CONTENT DISCOVERY"]
+    H --> I["ATTACK-SURFACE MAPPING"]
+    I --> J["DOCUMENTATION"]
 ```
 
 ## 5.4 Reconnaissance Tools
 
-| Tool | Primary Purpose |
+| Tool | Purpose |
 |---|---|
 | Nmap | Network discovery and port/service identification. |
 | Subfinder | Passive subdomain discovery. |
 | DNSx | DNS resolution and related DNS operations. |
 | WhatWeb | Web technology identification. |
-| Gobuster | Directory, file, and DNS enumeration, depending on mode. |
+| Gobuster | Directory, file, or DNS enumeration, depending on mode. |
 | Katana | Web crawling and endpoint discovery. |
 | Nuclei | Template-based checks for known exposures and security conditions. |
 | Nikto | Web server security checks. |
 | curl | HTTP requests and response inspection. |
-| Browser DevTools | Inspect browser behavior, network requests, storage, and frontend code. |
+| Browser DevTools | Inspect network requests, browser storage, and frontend behavior. |
 
-Tool output must be interpreted carefully. Discovery does not automatically establish exploitability or business impact.
+Tool output requires interpretation. A discovered endpoint, open port, or scanner match does not automatically represent a vulnerability.
 
 ## 5.5 Basic Command Examples
 
-The following examples use localhost or the reserved example domain where practical. Run active testing only against authorized systems.
+Use the following examples only in an authorized environment. Localhost examples assume a test service is running on the specified port.
 
 ### Nmap — Service Discovery
 
@@ -353,13 +348,8 @@ The following examples use localhost or the reserved example domain where practi
 nmap -sV 127.0.0.1
 ```
 
-**Explanation:**
-
-- `nmap` launches the network scanner.
 - `-sV` attempts to identify service versions.
 - `127.0.0.1` refers to the local host.
-
-Service-version detection can generate additional traffic. Use it only within the permitted scope.
 
 ### Subfinder — Subdomain Discovery
 
@@ -367,12 +357,7 @@ Service-version detection can generate additional traffic. Use it only within th
 subfinder -d example.com -silent
 ```
 
-**Explanation:**
-
-- `-d` specifies the domain.
-- `-silent` suppresses some informational output.
-
-The reserved `example.com` domain is illustrative. Replace it only with a domain you are authorized to assess.
+The reserved example domain is illustrative. Use a real domain only when it is within your authorized scope.
 
 ### DNSx — DNS Resolution
 
@@ -380,7 +365,7 @@ The reserved `example.com` domain is illustrative. Replace it only with a domain
 echo "example.com" | dnsx -silent
 ```
 
-This sends the domain to DNSx through standard input for DNS resolution.
+This passes a domain to DNSx through standard input.
 
 ### WhatWeb — Technology Identification
 
@@ -388,9 +373,9 @@ This sends the domain to DNSx through standard input for DNS resolution.
 whatweb http://127.0.0.1:3000
 ```
 
-This inspects a locally hosted web application for detectable technologies and related information.
+This inspects a local web application for detectable technologies.
 
-### Gobuster — Directory Discovery
+### Gobuster — Content Discovery
 
 ```bash
 gobuster dir \
@@ -398,13 +383,9 @@ gobuster dir \
   -w /usr/share/wordlists/dirb/common.txt
 ```
 
-**Parameters:**
-
-- `dir`: Directory/file discovery mode.
+- `dir`: Directory and file discovery mode.
 - `-u`: Target URL.
 - `-w`: Wordlist path.
-
-Ensure that the local application is running and that the wordlist exists before executing the command.
 
 ### Katana — Web Crawling
 
@@ -420,9 +401,7 @@ The `-d 2` option limits crawl depth to two levels.
 nuclei -u http://127.0.0.1:3000
 ```
 
-Nuclei performs checks using its configured templates. Review the templates and target scope before running a scan.
-
-A reported match should be validated before being treated as a confirmed vulnerability.
+Review the selected templates and testing scope before running the scan. Validate reported matches before treating them as confirmed findings.
 
 ### Nikto — Web Server Checks
 
@@ -432,15 +411,21 @@ nikto -h http://127.0.0.1:3000
 
 This runs web-server checks against the specified local target.
 
+## 5.6 Documentation
+
+| Room | Topic | Documentation |
+|---|---|---|
+| Room 01 | Passive Recon | [View PDF](2.Recon-Enumeration/Room1_Passive-Recon/Room1_Passive-Recon.pdf) |
+| Room 02 | Active Recon | [View PDF](2.Recon-Enumeration/Room2_Active-Recon/Room2_Active-Recon.pdf) |
+| Room 03 | Content Discovery | [View PDF](2.Recon-Enumeration/Room3_Content-Discovery/Room3_Content-Discovery.pdf) |
+
 ---
 
-# 06. Burp Suite
+# 🛠️ 06. Burp Suite and HTTP Traffic Analysis
 
-**Objective:** Understand HTTP interception, request modification, and response analysis using Burp Suite.
+**Objective:** Learn how to inspect, modify, and analyze HTTP requests and responses using Burp Suite.
 
-Burp Suite is a web application security testing platform that helps testers inspect and manipulate application traffic.
-
-It is particularly useful for understanding how an application processes parameters, cookies, headers, authentication state, and user-controlled input.
+Burp Suite is a web application security testing platform that helps testers understand application behavior and evaluate security controls.
 
 ## 6.1 Important Features
 
@@ -451,74 +436,78 @@ It is particularly useful for understanding how an application processes paramet
 | Intruder | Automate customized request testing. |
 | Decoder | Encode and decode supported data formats. |
 | Comparer | Compare requests or responses. |
-| Logger | Review captured HTTP traffic, depending on the version and configuration. |
+| Logger | Review captured HTTP traffic, depending on version and configuration. |
 
-Available features can differ between Burp Suite editions and versions.
+Available features can vary between editions and versions.
 
-## 6.2 Burp Suite Testing Workflow
+## 6.2 Testing Workflow
 
 ```mermaid
 flowchart TD
-    A["Browser"] --> B["Burp Proxy"]
-    B --> C["Inspect HTTP Request"]
-    C --> D["Send to Repeater"]
-    D --> E["Modify a Test Parameter"]
-    E --> F["Send Request"]
-    F --> G["Analyze Response"]
-    G --> H["Validate Observation"]
-    H --> I["Document Results"]
+    A["BROWSER"] --> B["BURP PROXY"]
+    B --> C["INSPECT HTTP REQUEST"]
+    C --> D["SEND TO REPEATER"]
+    D --> E["MODIFY TEST PARAMETER"]
+    E --> F["SEND REQUEST"]
+    F --> G["ANALYZE RESPONSE"]
+    G --> H["VALIDATE OBSERVATION"]
+    H --> I["DOCUMENT RESULTS"]
 ```
 
-## 6.3 Basic Testing Procedure
+## 6.3 Basic Procedure
 
 1. Open Burp Suite.
 2. Configure the browser to route traffic through Burp.
-3. Install and configure the Burp CA certificate if HTTPS interception requires it.
+3. Configure HTTPS interception where required.
 4. Open an authorized test application.
 5. Generate a normal application request.
-6. Inspect the request method, path, parameters, headers, and cookies.
+6. Inspect the method, path, headers, cookies, and parameters.
 7. Send the request to Repeater.
 8. Modify one relevant test parameter at a time.
 9. Resend the request.
 10. Compare the response with the original request.
 11. Determine whether the observed behavior is expected.
-12. Record evidence and relevant conclusions.
+12. Record relevant evidence and conclusions.
 
 ## 6.4 What to Analyze
-
-When examining a request and response, consider:
 
 - HTTP method and endpoint.
 - Query parameters and request body.
 - Authentication cookies and session state.
 - Authorization-related parameters.
 - Response status and headers.
-- Response body and application error messages.
+- Response body and error messages.
 - Differences between authorized and unauthorized requests.
-- Whether the application enforces security controls server-side.
+- Server-side enforcement of security controls.
 
-**Important:** A changed response does not necessarily prove a vulnerability. Confirm the behavior against the application's intended security requirements.
+A changed response does not necessarily prove a vulnerability. Confirm the behavior against the application's intended security requirements.
+
+## 6.5 Documentation
+
+| Room | Topic | Documentation |
+|---|---|---|
+| Room 01 | Burp Suite Repeater | [View PDF](3.Burp-Suite/Room1_Burp-Suite-Repeater/Room1_Burp-Suite-Repeater.pdf) |
 
 ---
 
-# 07. Common Web Application Vulnerabilities
+# ⚠️ 07. Common Web Application Vulnerabilities
 
-This section introduces common vulnerability classes, their causes, potential impact, basic testing considerations, and remediation approaches.
+This section introduces common vulnerability classes, their causes, potential impact, testing considerations, and remediation.
 
-The examples are intended for controlled learning environments.
+The examples are educational references intended for controlled environments.
 
 ## 7.1 Authentication Vulnerabilities
 
-Authentication verifies the identity of a user.
+Authentication verifies the identity of a user or client.
 
-Weak authentication controls can allow unauthorized access to accounts or expose sensitive application functionality.
+Weak authentication controls can allow unauthorized account access or expose restricted application functionality.
 
 ### Testing Considerations
 
 - Login validation.
 - Password-reset workflows.
 - Session creation and invalidation.
-- Account lockout or rate limiting.
+- Account-protection controls.
 - Multi-factor authentication.
 - Session-cookie attributes.
 - Authentication error handling.
@@ -538,29 +527,29 @@ curl -i -X POST \
   http://127.0.0.1:3000/login
 ```
 
-These requests illustrate basic HTTP interaction. They do not establish whether the endpoint exists or whether authentication is vulnerable.
+These examples demonstrate HTTP interaction. They do not establish whether the endpoint exists or whether authentication is vulnerable.
 
 ### Remediation
 
 - Use established authentication libraries.
-- Store passwords using appropriate password-hashing algorithms.
+- Store passwords using suitable password-hashing algorithms.
 - Apply rate limiting and account-protection controls.
-- Implement multi-factor authentication where appropriate.
+- Implement MFA where appropriate.
 - Regenerate session identifiers after authentication.
-- Invalidate sessions correctly during logout and account-security events.
-- Avoid revealing unnecessary information through authentication errors.
+- Invalidate sessions correctly.
+- Avoid exposing unnecessary information through authentication errors.
 
 ## 7.2 Broken Access Control
 
-Broken Access Control occurs when an application allows a user to perform actions or access resources outside their authorized permissions.
+Broken Access Control occurs when a user can perform actions or access resources outside their authorized permissions.
 
-Examples may include unauthorized access to administrative functionality, other users' records, or restricted API operations.
+Examples may include unauthorized access to administrative functions, other users' records, or restricted API operations.
 
 ### Testing Considerations
 
 - Access to protected endpoints.
 - Role-based permissions.
-- Ownership checks.
+- Resource ownership checks.
 - Server-side authorization.
 - Access to administrative functions.
 - Authorization consistency across API methods.
@@ -571,7 +560,7 @@ Examples may include unauthorized access to administrative functionality, other 
 curl -i http://127.0.0.1:3000/admin
 ```
 
-An HTTP response alone cannot establish whether access control is correctly implemented. Evaluate the response using authorized test accounts and the expected permission model.
+Evaluate the response against the expected permission model. An HTTP response alone cannot establish whether access control is correctly implemented.
 
 ### Remediation
 
@@ -580,21 +569,13 @@ An HTTP response alone cannot establish whether access control is correctly impl
 - Validate permissions for every protected operation.
 - Separate authentication from authorization.
 - Test permissions across roles and resource ownership.
-- Avoid relying on frontend restrictions as the primary security control.
+- Never rely solely on frontend restrictions.
 
 ## 7.3 Command Injection
 
-Command Injection occurs when untrusted input is incorporated into an operating-system command in an unsafe way.
+Command Injection occurs when untrusted input changes the structure or meaning of an operating-system command.
 
-The impact depends on the application's privileges, the execution environment, and the operations available to the process.
-
-### Testing Considerations
-
-- Identify functionality that invokes operating-system commands.
-- Understand how user input reaches the relevant component.
-- Use harmless, controlled test cases.
-- Observe application behavior and error handling.
-- Confirm findings without causing unnecessary system changes.
+The impact depends on the application's privileges, execution environment, and available operations.
 
 ### Illustrative Lab Input
 
@@ -602,7 +583,15 @@ The impact depends on the application's privileges, the execution environment, a
 127.0.0.1; id
 ```
 
-This is an example of shell metacharacter behavior, not a universally applicable payload. It should be evaluated only in an intentionally vulnerable lab designed for this exercise.
+This demonstrates shell metacharacter behavior. It should be evaluated only in an intentionally vulnerable lab designed for this exercise.
+
+### Testing Considerations
+
+- Identify functionality that invokes operating-system commands.
+- Understand how input reaches the relevant component.
+- Use harmless, controlled test cases.
+- Observe application behavior and error handling.
+- Validate findings without causing unnecessary system changes.
 
 ### Remediation
 
@@ -611,39 +600,37 @@ This is an example of shell metacharacter behavior, not a universally applicable
 - Avoid constructing commands through string concatenation.
 - Apply strict input validation.
 - Run services with least privilege.
-- Restrict operating-system permissions and process capabilities.
+- Restrict process capabilities and filesystem permissions.
 
 ## 7.4 Cross-Site Request Forgery (CSRF)
 
 CSRF attempts to cause a user's browser to submit an unwanted request to an application where the user is authenticated.
 
-The attack generally depends on the application's request handling and the browser's credential behavior.
+The risk depends on the application's request handling and browser credential behavior.
 
 ### Testing Considerations
 
-1. Identify a state-changing request.
-2. Understand how the application authenticates the request.
-3. Check whether anti-CSRF protections are present.
-4. Evaluate token validation and token binding.
-5. Review cookie `SameSite` settings.
-6. Examine Origin or Referer validation where appropriate.
-7. Verify whether an unauthorized cross-site request is rejected.
+- Identify state-changing requests.
+- Understand how the application authenticates those requests.
+- Check whether anti-CSRF protections are present.
+- Evaluate token validation.
+- Review cookie `SameSite` settings.
+- Examine Origin or Referer validation where appropriate.
+- Verify whether unauthorized cross-site requests are rejected.
 
 ### Remediation
 
 - Use properly validated CSRF tokens where appropriate.
 - Configure suitable `SameSite` cookie attributes.
 - Validate request origins for sensitive operations where appropriate.
-- Require appropriate reauthentication for high-risk actions.
+- Require reauthentication for high-risk actions when justified.
 - Do not treat CORS configuration as a replacement for CSRF protection.
 
 ## 7.5 File Inclusion and Path Traversal
 
-File inclusion and path traversal are related but distinct vulnerability classes.
+Path traversal occurs when an attacker manipulates a path to access files outside the intended directory.
 
-**Path traversal** occurs when an attacker can manipulate a path to access files outside the intended directory.
-
-**File inclusion** occurs when an application improperly includes or processes a user-controlled file reference. Depending on the technology and implementation, this can have consequences beyond unauthorized file access.
+File inclusion occurs when an application improperly includes or processes a user-controlled file reference. Depending on the implementation, its impact may extend beyond unauthorized file access.
 
 ### Illustrative Lab Input
 
@@ -651,12 +638,12 @@ File inclusion and path traversal are related but distinct vulnerability classes
 ../../../../etc/passwd
 ```
 
-This input demonstrates directory traversal syntax on Unix-like systems. Whether it has any effect depends on the application's implementation and environment.
+This demonstrates directory traversal syntax on Unix-like systems. Its effect depends on the application's implementation and environment.
 
 ### Testing Considerations
 
 - Identify file-related parameters.
-- Understand the application's expected file-access behavior.
+- Understand expected file-access behavior.
 - Test path normalization and directory restrictions.
 - Check whether unauthorized files can be accessed.
 - Avoid accessing sensitive data outside the approved test scope.
@@ -666,15 +653,15 @@ This input demonstrates directory traversal syntax on Unix-like systems. Whether
 - Prefer server-controlled identifiers over arbitrary filesystem paths.
 - Use strict file allowlists.
 - Canonicalize and validate paths.
-- Enforce access restrictions after path resolution.
+- Enforce restrictions after path resolution.
 - Restrict application filesystem permissions.
 - Avoid exposing unnecessary filesystem information.
 
 ## 7.6 Insecure Direct Object Reference (IDOR)
 
-IDOR is a type of access-control weakness in which an application exposes a reference to an object but fails to enforce the required authorization check.
+IDOR is an access-control weakness in which an application exposes a reference to an object but fails to enforce the required authorization check.
 
-An identifier can be numeric, textual, or otherwise structured. Changing an identifier alone does not prove that an IDOR exists.
+Identifiers may be numeric, textual, or otherwise structured. Changing an identifier alone does not prove that an IDOR exists.
 
 ### Example Endpoints
 
@@ -683,23 +670,23 @@ GET /api/users/1001
 GET /api/users/1002
 ```
 
-These are illustrative endpoint patterns. Their behavior depends on the application.
+These endpoint patterns are illustrative.
 
 ### Testing Procedure
 
 1. Use an authorized test account.
-2. Identify a resource that the account is permitted to access.
+2. Identify a resource the account is permitted to access.
 3. Record the normal request.
-4. Compare behavior using another test resource or account.
+4. Compare behavior using another authorized test resource or account.
 5. Verify whether the application enforces resource ownership.
-6. Record only the minimum evidence required to demonstrate the issue.
+6. Record the minimum evidence required to demonstrate the issue.
 
 ### Remediation
 
 - Enforce object-level authorization.
 - Verify resource ownership on the server.
 - Apply consistent checks across API endpoints.
-- Avoid relying on unpredictable identifiers as the only security control.
+- Do not rely on unpredictable identifiers as the only security control.
 - Include authorization tests in application testing.
 
 ## 7.7 SQL Injection
@@ -714,7 +701,7 @@ It commonly results from unsafe query construction, particularly when applicatio
 ' OR '1'='1'--
 ```
 
-This is a basic educational example. Its behavior depends on the database engine, query structure, and comment syntax.
+This is an educational example. Its behavior depends on the database engine, query structure, and comment syntax.
 
 ### Example HTTP Request
 
@@ -740,7 +727,7 @@ This command URL-encodes the supplied parameter. It does not guarantee SQL injec
 - Avoid constructing SQL through string concatenation.
 - Apply least-privilege database permissions.
 - Handle database errors safely.
-- Validate input according to the application's requirements.
+- Validate input according to application requirements.
 
 ## 7.8 File Upload Vulnerabilities
 
@@ -748,7 +735,7 @@ File upload weaknesses occur when an application fails to validate, store, proce
 
 Potential risks depend on how the application handles file contents and where the files are stored.
 
-### Harmless Test File
+### Create a Harmless Test File
 
 ```bash
 echo "WAPT Upload Test" > test.txt
@@ -773,7 +760,7 @@ The endpoint and form-field name are illustrative. Confirm the actual interface 
 - Filename handling.
 - Storage location.
 - Access permissions.
-- Whether uploaded files can be executed or interpreted.
+- Whether uploaded content can be executed or interpreted.
 
 ### Remediation
 
@@ -783,7 +770,7 @@ The endpoint and form-field name are illustrative. Confirm the actual interface 
 - Store uploads outside executable web directories where possible.
 - Apply access controls.
 - Prevent uploaded content from being interpreted as executable code.
-- Scan files where the application's risk model requires it.
+- Scan files when required by the application's risk model.
 
 ## 7.9 Cross-Site Scripting (XSS)
 
@@ -823,9 +810,9 @@ This example is for an intentionally vulnerable local lab. Whether it executes d
 - Implement Content Security Policy as an additional defensive layer.
 - Use secure templating practices.
 
-## 7.10 Additional Vulnerability Classes to Study
+## 7.10 Additional Topics for Further Study
 
-The repository's primary documentation index focuses on the topics listed above. The following subjects are useful extensions to a broader WAPT curriculum and should be documented separately as they are studied.
+The following vulnerability classes extend the scope of a broader web application security curriculum.
 
 | Topic | Core Security Concern |
 |---|---|
@@ -834,28 +821,57 @@ The repository's primary documentation index focuses on the topics listed above.
 | Security Misconfiguration | Insecure application, server, or infrastructure settings. |
 | Cryptographic Failures | Inadequate protection of sensitive information. |
 | Insecure Deserialization | Unsafe processing of serialized data. |
-| API Security | Weaknesses in API authentication, authorization, validation, or data exposure. |
+| API Security | Weaknesses in authentication, authorization, validation, or data exposure. |
 | Business Logic Vulnerabilities | Abuse of application workflows or business rules. |
 
-These additional topics are learning priorities, not claims that corresponding practical tests have already been completed.
+These are additional learning topics, not claims that corresponding practical tests have already been completed.
 
 ---
 
-# 08. Security Tools and Installation
+# 🧪 08. Practical Labs and Learning Environments
 
-This section provides example installation commands for a Kali Linux or compatible Debian-based environment.
+Practical testing is most useful when the environment is intentionally designed for security training.
 
-Package availability and installation requirements can vary by distribution, repository configuration, and tool version.
+## OWASP Juice Shop
 
-## 8.1 Update the Package Index
+OWASP Juice Shop is an intentionally vulnerable web application designed for security education and practical exercises.
+
+It can be used to explore web vulnerabilities, understand application behavior, and learn remediation concepts.
+
+Official resource: https://owasp.org/www-project-juice-shop/
+
+## PortSwigger Web Security Academy
+
+PortSwigger Web Security Academy provides educational material and interactive labs covering numerous web application vulnerability classes.
+
+It is useful for structured practice in HTTP analysis, authentication, access control, injection vulnerabilities, and other web security topics.
+
+Official resource: https://portswigger.net/web-security
+
+## Safe Lab Practices
+
+- Use intentionally vulnerable applications or systems covered by explicit authorization.
+- Keep test accounts and lab data separate from personal accounts.
+- Record the lab configuration and relevant tool versions.
+- Avoid using real user data for testing.
+- Keep evidence relevant to the finding.
+- Do not assume that a technique permitted in a lab is permitted on a public website.
+
+---
+
+# 🔧 09. Security Tools and Installation
+
+The following examples apply to Kali Linux or compatible Debian-based environments. Package availability and installation requirements vary by distribution and tool version.
+
+## 9.1 Update the Package Index
 
 ```bash
 sudo apt update
 ```
 
-Review package-manager errors before continuing. Do not assume an installation succeeded if the package manager reports a failure.
+Review package-manager errors before continuing.
 
-## 8.2 Install Core Tools
+## 9.2 Install Core Tools
 
 ```bash
 sudo apt install -y \
@@ -871,13 +887,7 @@ sudo apt install -y \
 
 Burp Suite and OWASP ZAP may require separate installation steps, depending on the distribution and available repositories.
 
-Official documentation:
-
-- Kali Linux: https://www.kali.org/docs/
-- Burp Suite: https://portswigger.net/burp/documentation
-- OWASP ZAP: https://www.zaproxy.org/docs/
-
-## 8.3 Install Go
+## 9.3 Install Go
 
 ```bash
 sudo apt install -y golang-go
@@ -889,7 +899,7 @@ Verify the installation:
 go version
 ```
 
-## 8.4 Install ProjectDiscovery Tools
+## 9.4 Install ProjectDiscovery Tools
 
 Subfinder:
 
@@ -915,9 +925,9 @@ Nuclei:
 go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 ```
 
-These commands install the respective Go binaries using the Go toolchain. Confirm that the installation instructions remain compatible with your installed Go version.
+Confirm that the commands remain compatible with the installed Go version and current upstream installation requirements.
 
-## 8.5 Configure the Go Binary Path
+## 9.5 Configure the Go Binary Path
 
 For the current Bash session:
 
@@ -932,7 +942,7 @@ echo 'export PATH="$PATH:$(go env GOPATH)/bin"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## 8.6 Verify Tool Installations
+## 9.6 Verify Installations
 
 ```bash
 nmap --version
@@ -946,122 +956,93 @@ nuclei -version
 
 Check individual tool documentation if a version flag differs between releases.
 
-## 8.7 Create a Working Directory
+## 9.7 Create a Working Directory
 
 ```bash
 mkdir -p ~/WAPT-Lab/{Recon,Burp,Testing,Reports,Screenshots}
 ```
 
-Navigate into the directory:
+Navigate into it:
 
 ```bash
 cd ~/WAPT-Lab
 ```
 
-The working directory separates test output and documentation from unrelated files.
+This separates testing output and documentation from unrelated files.
 
-**Operational note:** Install tools only from trusted distribution repositories or their official project sources. Review update requirements and avoid running tools against systems outside the authorized scope.
+### Official Tool Documentation
 
----
+- Kali Linux: https://www.kali.org/docs/
+- Burp Suite: https://portswigger.net/burp/documentation
+- OWASP ZAP: https://www.zaproxy.org/docs/
+- Nmap: https://nmap.org/book/man.html
+- Nuclei: https://docs.projectdiscovery.io/tools/nuclei
 
-# 09. Practical Learning Environments
-
-Practical testing is most useful when the environment is intentionally designed for security training.
-
-## 9.1 OWASP Juice Shop
-
-OWASP Juice Shop is an intentionally vulnerable web application designed for security education and practical exercises.
-
-It provides an environment for exploring web vulnerabilities, understanding application behavior, and learning remediation concepts.
-
-Official project:
-
-https://owasp.org/www-project-juice-shop/
-
-## 9.2 PortSwigger Web Security Academy
-
-PortSwigger Web Security Academy provides educational material and interactive labs covering many web application vulnerability classes.
-
-It is useful for structured practice in request analysis, authentication, access control, injection vulnerabilities, and other web security topics.
-
-Official website:
-
-https://portswigger.net/web-security
-
-## 9.3 Safe Lab Practices
-
-- Use intentionally vulnerable applications or systems covered by explicit authorization.
-- Keep test accounts and lab data separate from personal accounts.
-- Record the lab configuration and relevant tool versions.
-- Avoid using real user data for testing.
-- Keep evidence relevant to the finding.
-- Do not assume that a technique permitted in a lab is permitted on a public website.
+Install tools only from trusted distribution repositories or their official project sources. Run active scans only against authorized targets.
 
 ---
 
-# 10. End-to-End Vulnerability Testing Workflow
+# 🔄 10. End-to-End Vulnerability Assessment Workflow
 
 A consistent workflow helps reduce missed steps and improves the quality of technical findings.
 
-## Step 1 — Define the Scope
+## Step 1 — Scope Definition
 
 Identify the approved targets, application components, permitted testing methods, and restrictions.
 
-## Step 2 — Understand the Application
+## Step 2 — Application Mapping
 
-Review the application's functionality, endpoints, user roles, authentication requirements, and data flows.
+Understand application functionality, endpoints, user roles, authentication requirements, and data flows.
 
-## Step 3 — Map the Attack Surface
+## Step 3 — Attack-Surface Mapping
 
 Record relevant hosts, services, technologies, pages, API endpoints, parameters, and input locations.
 
-## Step 4 — Identify Security Controls
+## Step 4 — Security-Control Identification
 
-Understand how the application implements authentication, authorization, session management, input validation, and other relevant controls.
+Understand how the application implements authentication, authorization, session management, input validation, and other controls.
 
-## Step 5 — Select Test Cases
+## Step 5 — Test-Case Selection
 
-Choose tests appropriate to the application's functionality and the authorized scope.
+Choose tests appropriate to the application's functionality and authorized scope.
 
-## Step 6 — Perform Controlled Testing
+## Step 6 — Controlled Testing
 
-Use manual inspection and suitable tools to test the selected security controls.
+Use manual inspection and suitable tools to evaluate the selected security controls.
 
-## Step 7 — Validate Observations
+## Step 7 — Finding Validation
 
-Repeat the relevant test, compare against expected behavior, and determine whether the observed result is reproducible.
+Repeat the relevant test, compare against expected behavior, and determine whether the observation is reproducible.
 
-## Step 8 — Assess Impact
+## Step 8 — Impact Assessment
 
 Explain what an attacker could realistically achieve if the weakness were exploited. Consider confidentiality, integrity, availability, and business impact.
 
-## Step 9 — Recommend Remediation
+## Step 9 — Remediation
 
-Identify the underlying weakness and recommend a corrective measure that addresses the root cause.
+Identify the underlying weakness and recommend a corrective measure.
 
-## Step 10 — Document the Finding
+## Step 10 — Technical Reporting
 
-Record the affected component, evidence, reproduction steps, impact, remediation, and relevant references.
-
-## Workflow Summary
+Document the affected component, evidence, reproduction steps, impact, remediation, and relevant references.
 
 ```mermaid
 flowchart TD
-    A["Scope and Authorization"] --> B["Application Mapping"]
-    B --> C["Security Control Identification"]
-    C --> D["Test Case Selection"]
-    D --> E["Controlled Testing"]
-    E --> F["Finding Validation"]
-    F --> G["Impact Assessment"]
-    G --> H["Remediation Guidance"]
-    H --> I["Technical Report"]
+    A["SCOPE AND AUTHORIZATION"] --> B["APPLICATION MAPPING"]
+    B --> C["SECURITY-CONTROL IDENTIFICATION"]
+    C --> D["TEST-CASE SELECTION"]
+    D --> E["CONTROLLED TESTING"]
+    E --> F["FINDING VALIDATION"]
+    F --> G["IMPACT ASSESSMENT"]
+    G --> H["REMEDIATION GUIDANCE"]
+    H --> I["TECHNICAL REPORT"]
 ```
 
-A scan result should not be presented as a confirmed vulnerability until sufficient validation supports that conclusion.
+A scanner result should not be presented as a confirmed vulnerability until sufficient validation supports that conclusion.
 
 ---
 
-# 11. Vulnerability Remediation Reference
+# 🛡️ 11. Vulnerability Remediation Reference
 
 The following table summarizes common defensive measures.
 
@@ -1084,11 +1065,11 @@ The correct mitigation depends on the root cause and application architecture.
 
 ---
 
-# 12. Vulnerability Reporting Format
+# 📝 12. Vulnerability Reporting Template
 
 A technical report should allow another authorized tester or developer to understand the finding, reproduce it safely, evaluate its impact, and implement a fix.
 
-Use the following template for validated findings.
+Use this template for validated findings.
 
 ```text
 VULNERABILITY REPORT
@@ -1140,41 +1121,25 @@ VULNERABILITY REPORT
 
 ## Reporting Guidelines
 
-### Finding Title
+**Finding Title:** Use a concise title describing the actual weakness.
 
-Use a concise title describing the actual weakness.
+**Severity:** Use an appropriate documented methodology. Consider exploitability, required privileges, affected data, and business impact.
 
-### Severity
+**Evidence:** Include only the evidence needed to establish the finding. Remove credentials, session tokens, personal information, and unrelated sensitive data.
 
-Assign severity using an appropriate, documented methodology. Consider exploitability, required privileges, affected data, and business impact.
+**Reproduction Steps:** Provide ordered steps another authorized tester can follow in the same environment.
 
-Do not assign a high severity merely because a vulnerability class sounds dangerous.
+**Impact:** Explain the realistic consequence rather than making unsupported claims.
 
-### Evidence
+**Remediation:** Recommend a fix that addresses the underlying cause. Include code-level controls, configuration changes, or architectural improvements where relevant.
 
-Include only the evidence necessary to establish the finding. Remove credentials, session tokens, personal information, and unrelated sensitive data.
+**Retesting:** Describe how the corrected application should be tested to confirm that the weakness has been resolved.
 
-### Reproduction Steps
-
-Provide ordered steps that another authorized tester can follow in the same environment.
-
-### Impact
-
-Explain the realistic consequence rather than making unsupported claims.
-
-### Remediation
-
-Recommend a fix that addresses the underlying cause. Include configuration changes, code-level controls, or architectural improvements where relevant.
-
-### Retesting
-
-Describe how the corrected application should be tested to confirm that the weakness has been resolved.
-
-**Important:** Only report vulnerabilities that have actually been tested and validated. Clearly label theoretical risks, unverified scanner output, and incomplete test cases.
+> Only report vulnerabilities that have actually been tested and validated. Clearly label theoretical risks, unverified scanner output, and incomplete test cases.
 
 ---
 
-# 13. Learning Outcomes
+# 📊 13. Learning Outcomes
 
 Phase 1 focuses on developing the knowledge and working habits needed for further web application security training.
 
@@ -1199,7 +1164,7 @@ These are learning objectives. Individual skills should be considered demonstrat
 
 ---
 
-# 14. Repository Structure
+# 📂 14. Repository Structure
 
 The repository is organized into four main learning areas.
 
@@ -1233,7 +1198,6 @@ Web-Application-Basics/
 │       └── Room1_Burp-Suite-Repeater.pdf
 │
 └── 4.Common-Web-Vulnerabilities/
-    │
     ├── Authentication-Access-Control/
     ├── Broken Access Control/
     ├── Command Injection/
@@ -1247,11 +1211,11 @@ Web-Application-Basics/
     └── XSS/
 ```
 
-**Repository note:** This is a documentation-oriented directory map. Confirm actual filenames and nested paths in GitHub before relying on the example tree. Add report and screenshot subdirectories only where they exist.
+**Repository note:** This tree is a documentation map based on the current repository structure and the supplied filenames. Verify the exact paths and filenames in GitHub before relying on individual links. Folder names may differ from those shown here.
 
 ---
 
-# 15. References and Official Resources
+# 📚 15. References and Official Resources
 
 The following resources provide additional technical explanations, testing methodologies, and documentation.
 
@@ -1271,11 +1235,11 @@ Prefer official documentation when verifying tool syntax, installation requireme
 
 ---
 
-# 16. Security and Responsible Testing Disclaimer
+# ⚠️ 16. Security and Responsible Testing Disclaimer
 
 This repository is intended for educational purposes and authorized cybersecurity training.
 
-All active security testing must be performed on systems that I own, intentionally vulnerable training environments, or systems for which explicit authorization has been obtained.
+All active security testing must be performed on systems I own, intentionally vulnerable training environments, or systems for which explicit authorization has been obtained.
 
 Testing must remain within the approved scope and comply with applicable rules and restrictions.
 
@@ -1295,7 +1259,7 @@ Security tools can produce false positives, false negatives, and incomplete resu
 
 ---
 
-# 17. Internship Information
+# 👨‍💻 17. Internship Information
 
 | Detail | Information |
 |---|---|
@@ -1303,8 +1267,8 @@ Security tools can produce false positives, false negatives, and incomplete resu
 | Internship | Web Application Penetration Testing |
 | Domain | Cybersecurity |
 | Phase | Phase 1 — Learning and Foundation |
-| Internship Start Date | 15 October 2026 |
-| Internship End Date | 14 November 2026 |
+| Start Date | 15 October 2026 |
+| End Date | 14 November 2026 |
 | Duration | 1 Month |
 | Submission Period | 1 November – 5 November 2026 |
 | Repository | Web-Application-Basics |
@@ -1316,7 +1280,7 @@ The listed dates describe the internship schedule. They do not independently est
 
 ---
 
-# 18. Conclusion
+# 🚀 18. Conclusion
 
 Web application security requires more than knowing vulnerability names or memorizing payloads. It requires understanding how an application works, how its security controls are intended to operate, and how to validate weaknesses through controlled testing.
 
@@ -1328,7 +1292,7 @@ This is an evolving learning repository. Its documentation and practical evidenc
 
 <div align="center">
 
-### GHOSTMASKR | WEB APPLICATION SECURITY
+# GHOSTMASKR | WEB APPLICATION SECURITY
 
 **LEARN • ANALYZE • TEST • SECURE**
 
